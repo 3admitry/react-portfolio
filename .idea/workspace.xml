@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4901c2-b515-439d-aa8b-412ee62657a9" name="Changes" comment="" />
+    <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/main_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Main.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/Nav.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="28oEaHTyHqFjvG5t9CezgHF4hX8" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28oGZhzQ6dJTOUsECFd5K2PhO3h" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,18 +43,48 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\dev\js\it-incubator\projects\portfolio-react\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\assets\images" />
+      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\main" />
+      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\nav" />
+      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\header" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a4901c2-b515-439d-aa8b-412ee62657a9" name="Changes" comment="" />
-      <created>1651874611603</created>
+      <changelist id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="" />
+      <created>1651875594921</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651874611603</updated>
-      <workItem from="1651874614087" duration="80000" />
+      <updated>1651875594921</updated>
+      <workItem from="1651875599811" duration="5482000" />
     </task>
     <servers />
   </component>
