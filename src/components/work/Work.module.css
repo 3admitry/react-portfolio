@@ -1,0 +1,7 @@
+.about {
+    height: 100vh;
+}
+.container {
+    justify-content: flex-start;
+    margin: 0 auto;
+}

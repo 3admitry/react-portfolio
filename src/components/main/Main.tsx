@@ -3,28 +3,39 @@ import style from './Main.module.css'
 import commonStyle from '../../common/styles/Container.module.css'
 import realPhoto from '../../assets/images/myself-real3.png'
 import digitalPhoto from '../../assets/images/myself-digital.png'
+import { Switch } from '@mui/material';
+import Typography from '@mui/material/Typography';
 
 
 const Main = () => {
-    let[isReal,setReal] = useState(true);
-
-    const changeImg = () => {
-        setReal(!isReal);
-    }
+    const [checked, setChecked] = React.useState(true);
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setChecked(event.target.checked);
+    };
 
     return (
-        <div className={style.main}>
-            <div className={commonStyle.container}>
+        <section className={style.main}>
+            <div className={`${commonStyle.container} ${style.container}`}>
                 <div>
-                    <span>Hi There</span>
-                    <h1>I am Dmitry Zagluhinsky</h1>
-                    <p>A FRONT-END DEVELOPER</p>
+                    <span className={style.intro}>Hi there, I am</span>
+                    <h1>Dmitry Zagluhinsky</h1>
+                    <div className={style.bigDescription}>A FRONT-END (REACT) SOFTWARE ENGINEER</div>
+                    <div className={style.smallDescription}>SEO-Specialist, Co-founder & ex-CEO digital-agency SeoClick</div>
+                    <a href='#' className={'button'}>Download CV</a>
                 </div>
-                <div className={style.photo} onClick={changeImg}>
-                    <img src={isReal ? realPhoto: digitalPhoto} alt=""/>
+                <div className={style.photo}>
+                    <img src={checked ? realPhoto: digitalPhoto} alt=""/>
+                    <Typography>Real</Typography>
+                    <Switch
+                        size={'medium'}
+                        checked={checked}
+                        onChange={handleChange}
+                        inputProps={{ 'aria-label': 'controlled' }}
+                    />
+                    <Typography>Digital</Typography>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

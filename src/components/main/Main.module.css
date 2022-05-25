@@ -1,10 +1,30 @@
 .main {
-    height: 100vh;
-    background: #162944;
+    height: 90vh;
 }
-.intro {
 
+.container {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0 auto;
 }
-.photo img{
-    width: 500px;
+
+.container > div:nth-child(1) {
+    margin-top: 12rem;
+}
+
+.intro {
+    font-size: 1.7rem;
+}
+
+.bigDescription {
+    font-size: 1.5rem;
+}
+
+.smallDescription {
+    font-size: 1rem;
+    color: var(--slate);
+}
+
+.photo img {
+    width: 420px;
 }
