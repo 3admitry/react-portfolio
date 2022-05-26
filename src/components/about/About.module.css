@@ -1,7 +1,15 @@
 .about {
-    height: 100vh;
+    /*height: 100vh;*/
+    height: auto;
 }
 .container {
     justify-content: flex-start;
     margin: 0 auto;
+
+}
+.aboutBox{
+    padding: 10px;
+    border-radius: var(--border-radius);
+    background-color: #273B57;
+    display: flex;
 }
