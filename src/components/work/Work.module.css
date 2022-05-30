@@ -4,4 +4,5 @@
 .container {
     justify-content: flex-start;
     margin: 0 auto;
+    flex-direction: column;
 }

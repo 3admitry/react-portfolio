@@ -2,6 +2,18 @@
     height: 100vh;
 }
 .container {
-    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.title  {
+    font-size: var(--fz-xl);
+}
+.description{
+    max-width: 450px;
+    text-align: center;
+}
+.thxImg img{
+    width: 300px;
     margin: 0 auto;
 }

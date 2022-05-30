@@ -4,5 +4,21 @@
 .container {
     justify-content: flex-start;
     margin: 0 auto;
+    flex-direction: column;
+}
+.skillBoxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+}
+.skillBox{
+/*    flex-grow: 1;
+    width: 33%;
+    height: 100px;*/
+
+    background-color: #13253E;
+    border-radius: 5px;
+    border: 1px solid #CCD6F6;
+    padding: 15px;
 }
 

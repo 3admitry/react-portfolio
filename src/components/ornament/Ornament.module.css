@@ -1,0 +1,26 @@
+.ornament {
+    position: absolute;
+    top: 15px;
+    left: calc((100vw - 964px) / 2 - 175px);
+}
+
+.ornament > div {
+    width: 75px;
+    height: 75px;
+    background: url('../../assets/images/icons/ornament.svg');
+    margin-bottom: 20px;
+    transition: 1s cubic-bezier(0, 0.39, 0, 0.97);
+}
+
+
+.mainItem {
+
+}
+
+.item {
+    opacity: .2;
+}
+
+.item:hover {
+    opacity: 1;
+}
