@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="keep coding">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/html.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/ornament.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/thanks.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/ExperienceTabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ornament/Ornament.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ornament/Ornament.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/git.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icons.ts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/mainDirection.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Work.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ornament/Ornament.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ornament/Ornament.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +26,7 @@
       <list>
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,19 +49,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/js/portfolio-react/src/components/ornament",
+    "last_opened_file_path": "D:/js/portfolio-react/src/assets/images",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "ts.external.directory.path": "D:\\js\\portfolio-react\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\js\portfolio-react\src\components\ornament" />
+      <recent name="D:\js\portfolio-react\src\assets\images" />
       <recent name="D:\js\portfolio-react\src\assets\images\icons" />
+      <recent name="D:\js\portfolio-react\src\components\ornament" />
       <recent name="D:\js\portfolio-react\src\components" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\contact" />
-      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\js\portfolio-react\src\assets\images" />
@@ -105,7 +102,8 @@
       <workItem from="1653424919521" duration="2542000" />
       <workItem from="1653506696286" duration="189000" />
       <workItem from="1653507003122" duration="11475000" />
-      <workItem from="1653911954462" duration="12732000" />
+      <workItem from="1653911954462" duration="12799000" />
+      <workItem from="1653991800702" duration="11853000" />
     </task>
     <task id="LOCAL-00001" summary="keep coding">
       <created>1653579354417</created>
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653579354417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="keep coding">
+      <created>1653926056973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653926056973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +151,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="keep coding" />
     <option name="LAST_COMMIT_MESSAGE" value="keep coding" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

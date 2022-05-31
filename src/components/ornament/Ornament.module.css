@@ -1,13 +1,15 @@
 .ornament {
     position: absolute;
     top: 15px;
-    left: calc((100vw - 964px) / 2 - 175px);
+    left: calc((100vw - 964px) / 2 - 215px);
 }
 
 .ornament > div {
     width: 75px;
     height: 75px;
-    background: url('../../assets/images/icons/ornament.svg');
+    /*background: url('../../assets/images/icons/ornament.svg');*/
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75.723' height='75.43' viewBox='0 0 75.723 75.43'%3E%3Cg id='ornament' transform='translate(-111.299 -112.8)'%3E%3Cg id='Layer_3' data-name='Layer 3' transform='translate(111.299 112.8)'%3E%3Cpath id='Контур_10923' data-name='Контур 10923' d='M-642.961-293.344l-6.268,6.268,6.336,6.337,6.268-6.268Zm-37.827,37.437,6.337,6.336,6.268-6.268-6.337-6.337Zm-18.955-31.1-6.337-6.337-6.268,6.268,6.337,6.337Zm31.559-31.657L-674.52-325l-6.268,6.268,6.337,6.336Zm-4.353,31.638-1.92-1.92-1.76,1.76,1.92,1.92Zm15.483.91,14.127,13.831h-14.127l-14.091-13.8-3.312,3.312-3.342-3.342-14.122,13.827h-14.127l14.127-13.831H-677.8l-.972-.972,4.32-4.32,4.319,4.32-.972.972Zm-15.873,16.068,13.831,14.127v-14.127l-13.831-14.127Zm-3.117-14.127-13.831,14.127v14.127l13.831-14.127Zm18.99-4.084,14.127-13.831h-14.127l-14.127,13.831Zm-15.873-1.948,13.831-14.127v-14.127l-13.831,14.127Zm-4.867,1.948-14.127-13.831h-14.127l14.127,13.831Zm1.75-1.948-13.831-14.127v-14.127l13.831,14.127Z' transform='translate(712.347 325)' fill='%235ae6c7'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+
     margin-bottom: 20px;
     transition: 1s cubic-bezier(0, 0.39, 0, 0.97);
 }
@@ -18,7 +20,7 @@
 }
 
 .item {
-    opacity: .2;
+    opacity: .14;
 }
 
 .item:hover {

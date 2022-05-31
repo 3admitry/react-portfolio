@@ -1,6 +1,7 @@
 .about {
     /*height: 100vh;*/
     height: auto;
+    background-color: var(--oceanic-lightest);
 }
 .container {
     justify-content: flex-start;

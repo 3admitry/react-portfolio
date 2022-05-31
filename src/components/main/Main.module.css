@@ -8,8 +8,21 @@
     margin: 0 auto;
 }
 
-.container > div:nth-child(1) {
-    margin-top: 12rem;
+.leftBlock{
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    height: 100%;
+}
+.leftBlock > div:nth-child(1) {
+    padding-top: 12rem;
+}
+.leftBlock .directionBlock {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+    padding-bottom: 10px;
 }
 
 .intro {
@@ -25,6 +38,45 @@
     color: var(--slate);
 }
 
-.photo img {
+.imgBlock {
+    margin-top: 20px;
+}
+
+.photo {
     width: 420px;
 }
+
+.imageSwitcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 14px;
+}
+
+.active {
+    color: var(--green);
+}
+
+.connected {
+    display: flex;
+    margin-top: 50px;
+}
+
+.connectedLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+
+}
+
+/*
+.connectedCV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+
+

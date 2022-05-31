@@ -27,6 +27,7 @@ const About = () => {
                         </div>
                         <div>
                             <table>
+                                <tbody>
                                 <tr>
                                     <td>Name:</td>
                                     <td>Dmitry Zagluhinsky</td>
@@ -47,6 +48,7 @@ const About = () => {
                                     <td>Languages:</td>
                                     <td>English (B1), Russian</td>
                                 </tr>
+                                </tbody>
                             </table>
                         </div>
 
