@@ -12,6 +12,7 @@ import {styled} from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Stack from '@mui/material/Stack';
+import SvgLinesMain from "./addons/SvgLinesMain";
 
 
 const Main = () => {
@@ -47,7 +48,9 @@ const Main = () => {
                         </div>
                     </div>
                     <div className={style.directionBlock}>
-                        <div><img src={mainDir} alt=""/></div>
+                        <div>
+                            <SvgLinesMain />
+                        </div>
                     </div>
 
                 </div>

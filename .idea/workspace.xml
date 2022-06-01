@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="keep coding">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/git.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icons.ts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mainDirection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/addons/SvgLinesMain.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ornament/Ornament.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ornament/Ornament.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -46,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/js/portfolio-react/src/assets/images",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "D:\\js\\portfolio-react\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/js/portfolio-react/src/assets/images&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\js\\portfolio-react\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\js\portfolio-react\src\assets\images" />
@@ -103,7 +94,10 @@
       <workItem from="1653506696286" duration="189000" />
       <workItem from="1653507003122" duration="11475000" />
       <workItem from="1653911954462" duration="12799000" />
-      <workItem from="1653991800702" duration="11853000" />
+      <workItem from="1653991800702" duration="12035000" />
+      <workItem from="1654073482847" duration="879000" />
+      <workItem from="1654074483395" duration="1199000" />
+      <workItem from="1654079950349" duration="2446000" />
     </task>
     <task id="LOCAL-00001" summary="keep coding">
       <created>1653579354417</created>
@@ -119,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653926056973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="keep coding">
+      <created>1654013916027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654013916027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
