@@ -1,11 +1,15 @@
 import React from 'react';
 import style from './About.module.css'
 import commonStyle from '../../common/styles/Container.module.css'
+import SvgLinesAbout from "./SvgLinesAbout";
 
 
 const About = () => {
     return (
         <section className={style.about}>
+{/*            <div className={style.lineAbout}>
+                <SvgLinesAbout />
+            </div>*/}
             <div className={`${commonStyle.container} ${style.container}`}>
                 <div>
                     <h2>{'<AboutMe />'}</h2>

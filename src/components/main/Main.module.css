@@ -2,9 +2,19 @@
     height: 90vh;
 }
 
+.main::after {
+    content: '';
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background: linear-gradient(0deg, var(--oceanic-lightest) 0%, var(--oceanic-light) 100%);
+    bottom: 0;
+    z-index: -1;
+}
+
 .container {
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -16,7 +26,11 @@
 }
 
 .leftBlock > div:nth-child(1) {
-    padding-top: 12rem;
+    padding-top: 196px;
+}
+
+.rightBlock > div:nth-child(1) {
+    padding-top: 71px;
 }
 
 .leftBlock .directionBlock {
@@ -45,7 +59,7 @@
 }
 
 .photo {
-    width: 420px;
+    width: 364px;
 }
 
 .imageSwitcher {
@@ -71,6 +85,13 @@
     gap: 17px;
 
 }
+
+.ScrollBar {
+    position: absolute;
+    bottom: 0;
+    left: calc(100vw / 2 - 18px);
+}
+
 
 /*
 .connectedCV{

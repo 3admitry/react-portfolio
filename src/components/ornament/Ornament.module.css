@@ -2,6 +2,7 @@
     position: absolute;
     top: 15px;
     left: calc((100vw - 964px) / 2 - 215px);
+    z-index: 1;
 }
 
 .ornament > div {

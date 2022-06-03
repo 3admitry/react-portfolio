@@ -6,7 +6,7 @@ import WorkTabs from "./WorkTabs";
 
 const Work = () => {
     return (
-        <section className={style.about}>
+        <section className={style.work}>
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Work />'}</h2>
                 <WorkTabs />

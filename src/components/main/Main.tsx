@@ -49,12 +49,12 @@ const Main = () => {
                     </div>
                     <div className={style.directionBlock}>
                         <div>
-                            <SvgLinesMain />
+                            {/*<SvgLinesMain />*/}
                         </div>
                     </div>
 
                 </div>
-                <div>
+                <div  className={style.rightBlock}>
                     <div className={style.imgBlock}>
                         <div><img className={style.photo} src={checked ? digitalPhoto : realPhoto} alt=""/></div>
                         <div className={style.imageSwitcher}>
@@ -75,6 +75,9 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className={style.ScrollBar}>
+                <SvgLinesMain />
             </div>
         </section>
     );

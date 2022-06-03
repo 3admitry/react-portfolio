@@ -6,7 +6,7 @@ import ExperienceTabs from './ExperienceTabs';
 
 export const Experience = () => {
     return (
-        <section className={style.about}>
+        <section className={style.experience}>
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Experience />'}</h2>
                 <ExperienceTabs/>

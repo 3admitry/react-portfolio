@@ -6,7 +6,7 @@ import iconSkillExample from '../../assets/images/icons/html.svg'
 
 const Skills = () => {
     return (
-        <section className={style.about}>
+        <section className={style.skills}>
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Skills />'}</h2>
                 <div className={style.skillBoxes}>

@@ -6,7 +6,7 @@ import thxImg from '../../assets/images/thanks.webp'
 
 const Contact = () => {
     return (
-        <footer className={style.about}>
+        <footer className={style.contact}>
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Contact />'}</h2>
                 <div className={style.title}>Say Hello</div>

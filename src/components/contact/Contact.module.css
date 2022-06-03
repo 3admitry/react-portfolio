@@ -1,5 +1,6 @@
-.about {
+.contact {
     height: 100vh;
+    background-color: var(--oceanic-dark);
 }
 .container {
     align-items: center;
