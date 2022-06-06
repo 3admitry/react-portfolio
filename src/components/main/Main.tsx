@@ -15,7 +15,7 @@ import Stack from '@mui/material/Stack';
 import SvgLinesMain from "./addons/SvgLinesMain";
 
 
-const Main = () => {
+const Main = React.memo(() => {
     const [checked, setChecked] = React.useState(false);
     const handleChange = (event: React.SyntheticEvent) => {
         setChecked((event.target as HTMLInputElement).checked);
@@ -81,7 +81,7 @@ const Main = () => {
             </div>
         </section>
     );
-};
+});
 
 export default Main;
 

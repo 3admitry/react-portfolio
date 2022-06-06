@@ -51,6 +51,17 @@ h1 {
   margin: 20px 0;
 }
 
+h2 {
+  font-size: 40px;
+  color: var(--green);
+  position: relative;
+/*  margin: 20px 0;*/
+}
+
+h4 {
+  color: var(--green);
+}
+
 .button {
   color: var(--green);
   background-color: transparent;
@@ -69,6 +80,7 @@ h1 {
   background-color: var(--green-tint);
   outline: none;
 }
+
 
 /*src/assets/images/icons/ornament.svg*/
 
