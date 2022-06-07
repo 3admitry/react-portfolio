@@ -1,5 +1,6 @@
 import React from 'react';
 import {Box, Tab, Tabs, Typography} from "@mui/material";
+import style from './Experience.module.css'
 
 
 interface TabPanelProps {
@@ -36,7 +37,6 @@ function a11yProps(index: number) {
 }
 
 
-
 function ExperienceTabs() {
     const [value, setValue] = React.useState(0);
 
@@ -45,31 +45,36 @@ function ExperienceTabs() {
     };
 
     return (
-        <Box sx={{width: '100%', display: 'flex', bgcolor: 'white', borderRadius: '5px', p:3}}>
-            <Box sx={{borderRight: 1, borderColor: 'divider'}}>
+        <div className={style.box}>
+            <div className={style.tabs}>
                 <Tabs value={value}
                       onChange={handleChange}
                       aria-label="basic tabs example"
                       orientation="vertical">
-                    <Tab label={<> SeoClick <br/> 2015-2022 </>} {...a11yProps(0)} />
-                    <Tab label={<> Kit.by <br/> 2014-2015 </>} {...a11yProps(1)} />
-                    <Tab label={<> Seobility <br/> 2013-2014 </>} {...a11yProps(2)} />
-                    <Tab label={<> Extrit <br/> 2013-2014 </>} {...a11yProps(3)} />
+                    <Tab className={style.tab} label={<> SeoClick <br/> 2015-2022 </>} {...a11yProps(0)} />
+                    <Tab className={style.tab} label={<> Kit.by <br/> 2014-2015 </>} {...a11yProps(1)} />
+                    <Tab className={style.tab} label={<> Seobility <br/> 2013-2014 </>} {...a11yProps(2)} />
+                    <Tab className={style.tab} label={<> Extrit <br/> 2013-2014 </>} {...a11yProps(3)} />
                 </Tabs>
-            </Box>
-            <TabPanel value={value} index={0}>
-                Work in SeoClick
-            </TabPanel>
-            <TabPanel value={value} index={1}>
-                Work in Kit.by
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-                Work in Seobility
-            </TabPanel>
-            <TabPanel value={value} index={3}>
-                Work in Extrit
-            </TabPanel>
-        </Box>
+            </div>
+            <div className={style.tabPanel}>
+                <TabPanel value={value} index={0}>
+                    Work in SeoClick
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda dolores doloribus,
+                    eveniet excepturi fugit id iusto necessitatibus perferendis. Obcaecati.
+                </TabPanel>
+                <TabPanel value={value} index={1}>
+                    Work in Kit.by
+                </TabPanel>
+                <TabPanel value={value} index={2}>
+                    Work in Seobility
+                </TabPanel>
+                <TabPanel value={value} index={3}>
+                    Work in Extrit
+                </TabPanel>
+            </div>
+
+        </div>
     );
 }
 

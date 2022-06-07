@@ -81,7 +81,9 @@ h4 {
   outline: none;
 }
 
-
+.Mui-selected{
+  color: var(--green) !important;
+}
 /*src/assets/images/icons/ornament.svg*/
 
 

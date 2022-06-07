@@ -1,11 +1,11 @@
 .experience {
-    height: 100vh;
+    /*    height: 100vh;*/
     position: relative;
     background-color: var(--oceanic-dark);
     z-index: 1;
 }
 
-.experience::after {
+/*.experience::after {
     content: '';
     width: 100%;
     height: 500px;
@@ -13,11 +13,39 @@
     background: linear-gradient(0deg, var(--oceanic-dark) 0%, var(--oceanic-lightest) 100%);
     top: 0;
     z-index: -1;
-}
-
+}*/
 
 .container {
     justify-content: flex-start;
     margin: 0 auto;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #13253E;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    margin-left: auto;
+    position: relative;
+}
+
+.tabs {
+    flex: 0 1 163px;
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.tab{
+    color: var(--slate);
+}
+.tab .Mui-selected  {
+    color: var(--green) !important;
+}
+
+.tabPanel {
+    flex: 1;
 }
 
