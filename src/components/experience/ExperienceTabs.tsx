@@ -48,13 +48,14 @@ function ExperienceTabs() {
         <div className={style.box}>
             <div className={style.tabs}>
                 <Tabs value={value}
+                      className={'customTabs'}
                       onChange={handleChange}
                       aria-label="basic tabs example"
                       orientation="vertical">
-                    <Tab className={style.tab} label={<> SeoClick <br/> 2015-2022 </>} {...a11yProps(0)} />
-                    <Tab className={style.tab} label={<> Kit.by <br/> 2014-2015 </>} {...a11yProps(1)} />
-                    <Tab className={style.tab} label={<> Seobility <br/> 2013-2014 </>} {...a11yProps(2)} />
-                    <Tab className={style.tab} label={<> Extrit <br/> 2013-2014 </>} {...a11yProps(3)} />
+                    <Tab className={'customTab'} label={<> SeoClick <br/> <span>2015-2022</span> </>} {...a11yProps(0)} />
+                    <Tab className={'customTab'} label={<> Kit.by <br/> <span>2014-2015</span> </>} {...a11yProps(1)} />
+                    <Tab className={'customTab'} label={<> Seobility <br/> <span>2013-2014</span> </>} {...a11yProps(2)} />
+                    <Tab className={'customTab'} label={<> Extrit <br/> <span>2012-2013</span> </>} {...a11yProps(3)} />
                 </Tabs>
             </div>
             <div className={style.tabPanel}>

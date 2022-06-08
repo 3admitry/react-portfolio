@@ -35,15 +35,9 @@
 .tabs {
     flex: 0 1 163px;
     border-right: 1px solid;
-    border-color: rgba(0, 0, 0, 0.12);
+    border-color: var(--dark-slate);
 }
 
-.tab{
-    color: var(--slate);
-}
-.tab .Mui-selected  {
-    color: var(--green) !important;
-}
 
 .tabPanel {
     flex: 1;

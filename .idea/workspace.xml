@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="keep coding">
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/myself-digital.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/myself-real.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/ExperienceTabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/ExperienceTabs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +61,7 @@
       <recent name="D:\js\portfolio-react\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\js\portfolio-react\public" />
       <recent name="D:\js\portfolio-react\src\assets\images" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\header" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\assets\images" />
@@ -113,7 +117,8 @@
       <workItem from="1654522025199" duration="592000" />
       <workItem from="1654522649027" duration="610000" />
       <workItem from="1654523276332" duration="5563000" />
-      <workItem from="1654593411853" duration="10255000" />
+      <workItem from="1654593411853" duration="10487000" />
+      <workItem from="1654678108153" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="keep coding">
       <created>1653579354417</created>
@@ -157,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654530576333</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="keep coding">
+      <created>1654616481226</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654616481226</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,9 +1,8 @@
 import React from 'react';
 import style from './Main.module.css'
 import commonStyle from '../../common/styles/Container.module.css'
-import realPhoto from '../../assets/images/myself-real3.png'
-import digitalPhoto from '../../assets/images/myself-digital.png'
-import mainDir from '../../assets/images/mainDirection.svg'
+import realPhoto from '../../assets/images/myself-real.webp'
+import digitalPhoto from '../../assets/images/myself-digital.webp'
 import git from '../../assets/images/icons/git.svg'
 import link from '../../assets/images/icons/link.svg'
 import telegram from '../../assets/images/icons/telegram.svg'
@@ -86,7 +85,7 @@ const Main = React.memo(() => {
 export default Main;
 
 
-const MaterialUISwitch = styled(Switch)(({theme}) => ({
+const MaterialUISwitch = styled(Switch)(({}) => ({
     width: 62,
     height: 34,
     padding: 7,
