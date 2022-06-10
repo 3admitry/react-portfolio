@@ -74,7 +74,6 @@ function ExperienceTabs() {
                     Work in Extrit
                 </TabPanel>
             </div>
-
         </div>
     );
 }

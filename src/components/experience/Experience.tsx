@@ -10,6 +10,7 @@ export const Experience = () => {
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Experience />'}</h2>
                 <ExperienceTabs/>
+                <div className={style.step3Direction}></div>
             </div>
         </section>
     );

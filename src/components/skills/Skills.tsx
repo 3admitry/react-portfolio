@@ -11,20 +11,20 @@ const Skills = () => {
                 <h2>{'<Skills />'}</h2>
                 <div className={style.skillBoxes}>
                     <div className={style.skillBox}>
-                        <div>HTML</div>
+                        <div>HTML&CSS</div>
                         <ul>
                             <li>
                                 <div><img src={iconSkillExample}/></div>
                                 <div>
                                     <div>HTML5</div>
-                                    <div>2 Year Experience</div>
+                                    <div></div>
                                 </div>
                             </li>
                             <li>
                                 <div><img src={iconSkillExample}/></div>
                                 <div>
                                     <div>HTML5</div>
-                                    <div>2 Year Experience</div>
+                                    <div></div>
                                 </div>
                             </li>
                             <li>

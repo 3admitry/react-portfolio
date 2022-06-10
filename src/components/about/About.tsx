@@ -58,6 +58,7 @@ const About = () => {
                     </div>
 
                 </div>
+                <div className={style.step2Direction}></div>
             </div>
 
 
