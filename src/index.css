@@ -97,14 +97,20 @@ h4 {
     opacity: .5;
 }
 
-.customTabs .customTab.Mui-selected {
+.customTabs .customTab.Mui-selected, .workTabs .customTab.Mui-selected {
     color: var(--green);
 }
 
-.customTabs .MuiTabs-indicator {
+.customTabs .MuiTabs-indicator, .workTabs .MuiTabs-indicator {
     background-color: var(--green);
 
 }
+
+.workTabs .customTab {
+    color: var(--slate);
+}
+
+
 
 
 /*src/assets/images/icons/ornament.svg*/

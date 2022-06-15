@@ -10,6 +10,7 @@ const Work = () => {
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Work />'}</h2>
                 <WorkTabs />
+                <div className={style.step5Direction}></div>
             </div>
         </section>
     );

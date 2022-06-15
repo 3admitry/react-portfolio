@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import style from './Work.module.css'
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -11,7 +12,7 @@ interface TabPanelProps {
 }
 
 function TabPanel(props: TabPanelProps) {
-    const { children, value, index, ...other } = props;
+    const {children, value, index, ...other} = props;
 
     return (
         <div
@@ -22,7 +23,7 @@ function TabPanel(props: TabPanelProps) {
             {...other}
         >
             {value === index && (
-                <Box sx={{ p: 3 }}>
+                <Box sx={{p: 3}}>
                     <Typography>{children}</Typography>
                 </Box>
             )}
@@ -45,23 +46,49 @@ export default function WorkTabs() {
     };
 
     return (
-        <Box sx={{ width: '100%', bgcolor: 'white' }}>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+        <Box sx={{width: '100%', /*bgcolor: 'white'*/}}>
+            <Box className={'workTabs'} sx={{borderBottom: 1, borderColor: 'var(--dark-slate)'}}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-                    <Tab label="Item One" {...a11yProps(0)} />
-                    <Tab label="Item Two" {...a11yProps(1)} />
-                    <Tab label="Item Three" {...a11yProps(2)} />
+                    <Tab className={'customTab'} label="React/Redux" {...a11yProps(0)} />
+                    <Tab className={'customTab'} label="JS" {...a11yProps(1)} />
+                    <Tab className={'customTab'} label="HTML/CSS" {...a11yProps(2)} />
+                    <Tab className={'customTab'} label="PHP" {...a11yProps(3)} />
+                    <Tab className={'customTab'} label="SEO" {...a11yProps(4)} />
+                    <Tab className={'customTab'} label="Design" {...a11yProps(5)} />
                 </Tabs>
             </Box>
-            <TabPanel value={value} index={0}>
-                Item One
-            </TabPanel>
-            <TabPanel value={value} index={1}>
-                Item Two
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-                Item Three
-            </TabPanel>
+            <div className={style.workBoxs}>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={0}>
+                    Item One
+                </TabPanel>
+                <TabPanel value={value} index={1}>
+                    Item two
+                </TabPanel>
+                <TabPanel value={value} index={1}>
+                    Item two
+                </TabPanel>
+                <TabPanel value={value} index={2}>
+                    Item Three
+                </TabPanel>
+            </div>
         </Box>
     );
 }

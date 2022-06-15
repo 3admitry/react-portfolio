@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Skills.module.css'
 import commonStyle from '../../common/styles/Container.module.css'
 import iconSkillExample from '../../assets/images/icons/html.svg'
+import {RootStateType, state} from "../../state/state";
 
 
 const Skills = () => {
@@ -10,49 +11,48 @@ const Skills = () => {
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Skills />'}</h2>
                 <div className={style.skillBoxes}>
-                    <div className={style.skillBox}>
-                        <div>HTML&CSS</div>
-                        <ul>
-                            <li>
-                                <div><img src={iconSkillExample}/></div>
-                                <div>
-                                    <div>HTML5</div>
-                                    <div></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div><img src={iconSkillExample}/></div>
-                                <div>
-                                    <div>HTML5</div>
-                                    <div></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div><img src={iconSkillExample}/></div>
-                                <div>
-                                    <div>HTML5</div>
-                                    <div>2 Year Experience</div>
-                                </div>
-                            </li>
-                            <li>
-                                <div><img src={iconSkillExample}/></div>
-                                <div>
-                                    <div>HTML5</div>
-                                    <div>2 Year Experience</div>
-                                </div>
-                            </li>
-
-
-                        </ul>
-                    </div>
-                    <div className={style.skillBox}>REACT</div>
-                    <div className={style.skillBox}>JS</div>
-                    <div className={style.skillBox}>UI</div>
-                    <div className={style.skillBox}>BACK</div>
-                    <div className={style.skillBox}>SOFT</div>
+                    <div className={style.skillBox}><ShowSkills skills={state.skills.html}/></div>
+                    <div className={style.skillBox}><ShowSkills skills={state.skills.react}/></div>
+                    <div className={style.skillBox}><ShowSkills skills={state.skills.js}/></div>
+                    <div className={style.skillBox}><ShowSkills skills={state.skills.seo}/></div>
+                    <div className={style.skillBox}><ShowSkills skills={state.skills.backend}/></div>
+                    <div className={style.skillBox}><ShowSkills skills={state.skills.design}/></div>
                 </div>
+                <div className={style.step4Direction}></div>
             </div>
         </section>
+    )
+        ;
+};
+
+type ShowSkillsPropsType = {
+    skills: {
+        title: string
+        description: string
+        items: Array<{ name: string, image: string }>
+    }
+}
+
+const ShowSkills = (props: ShowSkillsPropsType) => {
+    return (
+        <>
+            <div className={style.titleSkillBox}>{props.skills.title}</div>
+            <div className={style.descriptionSkillBox}>{props.skills.description}</div>
+            <ul>
+                {props.skills.items.map((skill, index) => {
+                    return <li key={index + skill.name}>
+                        <div className={style.iconSkill}><img alt='' src={
+                            require('../../assets/images/icons/' +
+                                skill.image +
+                                '.svg')
+                        }/></div>
+                        <div className={style.nameSkill}>
+                            {skill.name}
+                        </div>
+                    </li>
+                })}
+            </ul>
+        </>
     );
 };
 
