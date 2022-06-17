@@ -55,7 +55,7 @@ const Main = React.memo(() => {
                 </div>
                 <div  className={style.rightBlock}>
                     <div className={style.imgBlock}>
-                        <div><img className={style.photo} src={checked ? digitalPhoto : realPhoto} alt=""/></div>
+                        <div><img className={style.photo} src={checked ? digitalPhoto : realPhoto} alt="" width={'364px'} height={'413px'}/></div>
                         <div className={style.imageSwitcher}>
                             <div>MYSELF IN</div>
                             <div>

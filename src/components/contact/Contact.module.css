@@ -1,5 +1,5 @@
 .contact {
-    height: 100vh;
+
     background-color: var(--oceanic-dark);
 }
 .container {
@@ -8,13 +8,24 @@
     flex-direction: column;
 }
 .title  {
-    font-size: var(--fz-xl);
+    font-size: clamp(40px, 5vw, 60px);
+    color: var(--lightest-slate);
+    font-weight: 600;
 }
 .description{
-    max-width: 450px;
+    /*max-width: 450px;*/
     text-align: center;
+    color: var(--slate);
+    margin: 15px 0;
 }
 .thxImg img{
     width: 300px;
     margin: 0 auto;
+}
+
+.connectBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: 33px 0;
 }

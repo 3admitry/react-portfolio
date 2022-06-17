@@ -9,13 +9,22 @@ const Contact = () => {
         <footer className={style.contact}>
             <div className={`${commonStyle.container} ${style.container}`}>
                 <h2>{'<Contact />'}</h2>
-                <div className={style.title}>Say Hello</div>
+                <div className={style.title}>Let's be in touch</div>
                 <div className={style.description}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi enim est et nisi perspiciatis,
-                    quisquam repellat vel. A animi, aspernatur at culpa, cumque deserunt ducimus.
+                    Now I'm looking for new opportunities and open to any suggestions.<br /> You can just 'Send Hello' to my inbox or 'Say Hello' in my Telegram
+                </div>
+                <div className={style.connectBox} >
+                    <div>
+                        <a className="button" href="mailto:3a.dmitriy@gmail.com" rel="noopener noreferrer"
+                           target="_blank">Send Hello</a>
+                    </div>
+                    <div>
+                        <a className="button" href="https://t.me/iiiadi" rel="noopener noreferrer"
+                           target="_blank">Say Hello</a>
+                    </div>
                 </div>
                 <div className={style.thxImg}>
-                    <img src={thxImg}/>
+                    <img src={thxImg} width={'300px'} height={'300px'}/>
                 </div>
             </div>
         </footer>
