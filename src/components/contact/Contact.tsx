@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contact.module.css'
+import style from './Contact.module.scss'
 import commonStyle from '../../common/styles/Container.module.css'
 import thxImg from '../../assets/images/thanks.webp'
 

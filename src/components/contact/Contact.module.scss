@@ -1,0 +1,35 @@
+.contact {
+  background-color: var(--oceanic-dark);
+
+  .container {
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+
+    .title {
+      font-size: clamp(40px, 5vw, 60px);
+      color: var(--lightest-slate);
+      font-weight: 600;
+    }
+
+    .description {
+      /*max-width: 450px;*/
+      text-align: center;
+      color: var(--slate);
+      margin: 15px 0;
+    }
+
+    .connectBox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 45px;
+      margin: 33px 0;
+    }
+
+  }
+}
+
+
+
+
+
