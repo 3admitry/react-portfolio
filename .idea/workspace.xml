@@ -4,8 +4,7 @@
     <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="created all blocks of structure&#10;start to build Main.tsx&#10;connected mui&#10;add css / scss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,25 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\dev\\js\\it-incubator\\projects\\portfolio-react\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/dev/js/it-incubator/projects/portfolio-react/src/components/work",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "D:\\dev\\js\\it-incubator\\projects\\portfolio-react\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\work" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\contact" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\assets\images" />
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\main" />
-      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\nav" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\header" />
@@ -93,8 +93,16 @@
       <workItem from="1653424919521" duration="2542000" />
       <workItem from="1653506696286" duration="189000" />
       <workItem from="1653507003122" duration="11475000" />
-      <workItem from="1657371493737" duration="1260000" />
+      <workItem from="1657371493737" duration="5572000" />
     </task>
+    <task id="LOCAL-00001" summary="created all blocks of structure&#10;start to build Main.tsx&#10;connected mui&#10;add css / scss">
+      <created>1657408553993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657408553993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
