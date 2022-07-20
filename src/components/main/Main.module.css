@@ -60,6 +60,13 @@
 
 .photo {
     width: 364px;
+    height: 413px;
+    background: url("/src/assets/images/myself.webp");
+    background-size: cover;
+
+}
+.digital{
+    background-position-x: -363.8px;
 }
 
 .imageSwitcher {

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.css'
 import commonStyle from '../../common/styles/Container.module.css'
-import realPhoto from '../../assets/images/myself-real.webp'
+import myselfPhoto from '../../assets/images/myself.webp'
 import digitalPhoto from '../../assets/images/myself-digital.webp'
 import git from '../../assets/images/icons/git.svg'
 import link from '../../assets/images/icons/link.svg'
@@ -53,9 +53,12 @@ const Main = React.memo(() => {
                     </div>
 
                 </div>
-                <div  className={style.rightBlock}>
+                <div className={style.rightBlock}>
                     <div className={style.imgBlock}>
-                        <div><img className={style.photo} src={checked ? digitalPhoto : realPhoto} alt="" width={'364px'} height={'413px'}/></div>
+                        <div className={checked ? `${style.photo} ${style.digital}` :`${style.photo}`}>
+                            {/*<img  src={myselfPhoto} alt=""
+                                  width={'364px'} height={'413px'}/>*/}
+                        </div>
                         <div className={style.imageSwitcher}>
                             <div>MYSELF IN</div>
                             <div>
@@ -76,7 +79,7 @@ const Main = React.memo(() => {
                 </div>
             </div>
             <div className={style.ScrollBar}>
-                <SvgLinesMain />
+                <SvgLinesMain/>
             </div>
         </section>
     );
