@@ -74,7 +74,72 @@ export const state = {
                 {name: 'Sketch', image: 'bem'},
             ]
         },
-    }
+    },
+    work:[
+        {
+            id: 1,
+            type: 'react',
+            title: 'React Todolist',
+            desc: 'Awesome todolist with a pretty design App in which you can create a list of your tasks. You can add, change, delete your names Powered by API from samuraijs.com, all your data is stored on the server',
+            img: 'todolist',
+            stack: [
+                'React',
+                'Redux/Thunk',
+                'TypeScript',
+                'StoryBook',
+                'Unit tests',
+                'Integration tests',
+                'Formik',
+                'MUI',
+                'SASS',
+            ],
+            links: {
+                git: 'https://github.com/3admitry/react-todolist',
+                demo: 'https://3admitry.github.io/react-todolist',
+            }
+        },
+        {
+            id: 2,
+            type: 'react',
+            title: 'React Social Network',
+            desc: `A tiny social network that demonstrates the main features of the React application paired with Redux state management 
+                You can sign in (using validation and captcha), make changes to your profile information, status, add posts. There are over 20,000 active users`,
+            img: 'network',
+            stack: [
+                'React',
+                'Redux/Thunk',
+                'React-router-dom',
+                'Unit tests',
+                'React-hook-form',
+                'Ant design',
+                'SASS',
+            ],
+            links: {
+                git: 'https://github.com/3admitry/react-social-network',
+                demo: 'https://3admitry.github.io/react-social-network',
+            }
+        },
+        {
+            id: 3,
+            type: 'react',
+            title: 'Social Network',
+            desc: `A tiny social network that demonstrates the main features of the React application paired with Redux state management 
+                You can sign in (using validation and captcha), make changes to your profile information, status, add posts. There are over 20,000 active users`,
+            img: 'network',
+            stack: [
+                'React',
+                'Redux/Thunk',
+                'React-router-dom',
+                'Unit tests',
+                'React-hook-form',
+                'Ant design',
+                'SASS',
+            ],
+            links: {
+                demo: 'https://3admitry.github.io/react-social-network',
+            }
+        },
+    ]
 }
 
 export type RootStateType = typeof state;

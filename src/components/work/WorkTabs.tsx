@@ -4,15 +4,16 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
-import style from './Work.module.scss';
+import style from '../../assets/scss/Work.module.scss';
 import todoImg from '../../assets/images/works/todolist.jpg'
 import WorkTab from "./WorkTab";
 import {createTheme} from '@mui/material';
 import {styled} from "@mui/material/styles";
+import {state} from "../../state/state";
 
 
 export default function LabTabs() {
-    const [value, setValue] = React.useState('1');
+    const [value, setValue] = React.useState('all');
 
     const handleChange = (event: React.SyntheticEvent, newValue: string) => {
         setValue(newValue);
@@ -29,7 +30,7 @@ export default function LabTabs() {
                 <Box className={'workTabs'} sx={{borderBottom: 1, borderColor: 'var(--dark-slate)'}}>
                     <TabList onChange={handleChange} aria-label="work tabs">
                         <Tab className={'customTab'} label="All" value="all"/>
-                        <Tab className={'customTab'} label="React/Redux" value="1"/>
+                        <Tab className={'customTab'} label="React/Redux" value="react"/>
                         <Tab className={'customTab'} label="HTML/CSS" value="2"/>
                         <Tab className={'customTab'} label="PHP" value="3"/>
                         <Tab className={'customTab'} label="SEO" value="4"/>
@@ -38,24 +39,15 @@ export default function LabTabs() {
                     </TabList>
                 </Box>
                 <div className={style.workBoxs}>
-                    <CustomizedTabPanel value={value === 'all' ? 'all' : '1'}>
-                        <WorkTab/>
-                    </CustomizedTabPanel>
-                    <CustomizedTabPanel value={value === 'all' ? 'all' : '2'}>
-                        <WorkTab/>
-                    </CustomizedTabPanel>
-                    <CustomizedTabPanel value={value === 'all' ? 'all' : '3'}>
-                        <WorkTab/>
-                    </CustomizedTabPanel>
-                    <CustomizedTabPanel value={value === 'all' ? 'all' : '4'}>
-                        <WorkTab/>
-                    </CustomizedTabPanel>
-                    <CustomizedTabPanel value={value === 'all' ? 'all' : '5'}>
-                        <WorkTab/>
-                    </CustomizedTabPanel>
-                    <CustomizedTabPanel value={value === 'all' ? 'all' : '6'}>
-                        <WorkTab/>
-                    </CustomizedTabPanel>
+                    {
+                        state.work.map(el => {
+                            return (
+                                <CustomizedTabPanel key={el.id} value={value === 'all' ? 'all' : el.type}>
+                                    <WorkTab project={el}/>
+                                </CustomizedTabPanel>
+                            )
+                        })
+                    }
                 </div>
             </TabContext>
         </Box>

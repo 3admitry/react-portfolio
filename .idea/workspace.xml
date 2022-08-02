@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="keep coding">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/external.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/miniGit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" afterDir="false" />
+    <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="modify WorkTabs.tsx experimental Tabs mui">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/Work.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Work.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/external.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/ext.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/git.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/miniGit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/Work.module.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/state.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
         <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -46,10 +53,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "D:/js/portfolio-react/src/assets/images/icons",
+    "list.type.of.created.stylesheet": "SCSS",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "D:\\js\\portfolio-react\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\dev\\js\\it-incubator\\projects\\portfolio-react\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,11 +71,11 @@
       <recent name="D:\js\portfolio-react\src\components\ornament" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\assets\scss" />
       <recent name="D:\js\portfolio-react\src\components\work" />
       <recent name="D:\js\portfolio-react\src\components\WorkTab" />
       <recent name="D:\js\portfolio-react\public" />
       <recent name="D:\js\portfolio-react\src\assets\images" />
-      <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\components\header" />
     </key>
   </component>
   <component name="RunManager">

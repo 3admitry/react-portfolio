@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Work.module.scss'
+import style from '../../assets/scss/Work.module.scss'
 import commonStyle from '../../common/styles/Container.module.css'
 import WorkTabs from "./WorkTabs";
 

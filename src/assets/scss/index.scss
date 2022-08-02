@@ -1,3 +1,5 @@
+@import "variables";
+
 :root {
     --oceanic-dark: #0A192F;
     --oceanic-light: #162944;
@@ -44,7 +46,11 @@ code {
 }
 
 a {
-    color: var(--green);
+    color: $light-slate;
+    transition: $transition;
+    &:hover{
+        color: $green;
+    }
 }
 
 h1 {
