@@ -1,5 +1,5 @@
 .work {
-    height: 100vh;
+    //height: 100vh;
     background-color: var(--oceanic-dark);
 }
 .container {
@@ -17,15 +17,70 @@
 }
 
 .workBoxs {
-    margin-top: 15px;
+    margin-top: 2rem;
     display: grid;
-    grid-template-columns: 31.6% 31.6% 31.6%;
+    //grid-template-columns: 31.6% 31.6% 31.6%;
+    grid-template-columns: 50% 50%;
     gap: 25px;
+    .workBox{
+            border-radius: 5px;
+            padding: 15px;
+            background-color: var(--light-navy);
+            transition: .2s ease-in-out;
+            &:hover{
+                transform: translateY(-7px);
+            }
+
+        &Top{
+            display: flex;
+            justify-content: right;
+            a{
+                margin-left: 10px;
+            }
+        }
+        &Info{
+            display: flex;
+            gap: 15px;
+            min-height: 200px;
+            &Image{
+                flex-basis: 223px;
+                border-radius: 5px;
+                background-size: cover;
+            }
+            &Content{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                &Title{
+                    color: var(--green);
+                }
+                &Description{
+                    margin-top: 10px;
+                    color: var(--light-slate);
+                    font-size: 14px;
+                }
+                &Stack{
+                    margin-top: auto;
+                    ul{
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+
+                        li{
+                            font-family: monospace;
+                            display: inline-block;
+                            font-size: 12px;
+                            color: var(--dark-slate);
+                            &:not(:last-child) {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
-.workBoxs > div {
-    border-radius: 5px;
-    /*border: 1px solid var(--dark-slate);*/
-    padding: 15px;
-    background-color: var(--light-navy);
-}
+

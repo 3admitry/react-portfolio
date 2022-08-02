@@ -4,7 +4,12 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
-import style from './Work.module.css';
+import style from './Work.module.scss';
+import todoImg from '../../assets/images/works/todolist.jpg'
+import WorkTab from "./WorkTab";
+import {createTheme} from '@mui/material';
+import {styled} from "@mui/material/styles";
+
 
 export default function LabTabs() {
     const [value, setValue] = React.useState('1');
@@ -12,6 +17,11 @@ export default function LabTabs() {
     const handleChange = (event: React.SyntheticEvent, newValue: string) => {
         setValue(newValue);
     };
+
+
+    const CustomizedTabPanel = styled(TabPanel)`
+      padding: 0;
+    `;
 
     return (
         <Box sx={{width: '100%', typography: 'body1'}}>
@@ -28,12 +38,24 @@ export default function LabTabs() {
                     </TabList>
                 </Box>
                 <div className={style.workBoxs}>
-                    <TabPanel value={value === 'all' ? 'all' : '1'}>Item One</TabPanel>
-                    <TabPanel value={value === 'all' ? 'all' : '2'}>Item Two</TabPanel>
-                    <TabPanel value={value === 'all' ? 'all' : '3'}>Item Three</TabPanel>
-                    <TabPanel value={value === 'all' ? 'all' : '4'}>Item 4</TabPanel>
-                    <TabPanel value={value === 'all' ? 'all' : '5'}>Item 5</TabPanel>
-                    <TabPanel value={value === 'all' ? 'all' : '6'}>Item 6</TabPanel>
+                    <CustomizedTabPanel value={value === 'all' ? 'all' : '1'}>
+                        <WorkTab/>
+                    </CustomizedTabPanel>
+                    <CustomizedTabPanel value={value === 'all' ? 'all' : '2'}>
+                        <WorkTab/>
+                    </CustomizedTabPanel>
+                    <CustomizedTabPanel value={value === 'all' ? 'all' : '3'}>
+                        <WorkTab/>
+                    </CustomizedTabPanel>
+                    <CustomizedTabPanel value={value === 'all' ? 'all' : '4'}>
+                        <WorkTab/>
+                    </CustomizedTabPanel>
+                    <CustomizedTabPanel value={value === 'all' ? 'all' : '5'}>
+                        <WorkTab/>
+                    </CustomizedTabPanel>
+                    <CustomizedTabPanel value={value === 'all' ? 'all' : '6'}>
+                        <WorkTab/>
+                    </CustomizedTabPanel>
                 </div>
             </TabContext>
         </Box>
