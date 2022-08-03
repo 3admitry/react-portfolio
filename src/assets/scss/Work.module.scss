@@ -39,24 +39,29 @@
     &Top {
       display: flex;
       justify-content: right;
+      align-items: center;
 
       .git{
         position: relative;
         top: 1px;
+        z-index: 2;
         svg{
           width: 20px;
           height: 20px;
         }
       }
 
-      a {
+      a,span {
         margin-left: 10px;
         z-index: 1;
+        cursor: pointer;
         svg{
           width: 22px;
           height: 22px;
         }
-
+        &:hover{
+          color: $green;
+        }
         &:before {
           content: "";
           display: block;
@@ -67,6 +72,11 @@
           top: 0px;
           left: 0px;
         }
+      }
+      .projectType{
+        font-size: $fz-13;
+        color: $dark-slate;
+        font-family: monospace;
       }
     }
 

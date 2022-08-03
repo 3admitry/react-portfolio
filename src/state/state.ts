@@ -58,8 +58,10 @@ export const state = {
                 {name: 'ООP/MVC/SOLID/DRY/KIS', image: 'sass'},
                 {name: 'Composer', image: 'module-css'},
                 {name: 'Nginx/Apache', image: 'bootstrap'},
-                {name: 'Jooomla/Wordpress \n' +
-                        '& 15+ CMS Exp.', image: 'bem'},
+                {
+                    name: 'Jooomla/Wordpress \n' +
+                        '& 15+ CMS Exp.', image: 'bem'
+                },
             ]
         },
         design: {
@@ -75,13 +77,13 @@ export const state = {
             ]
         },
     },
-    work:[
+    work: [
         {
             id: 1,
             type: 'react',
+            name: 'todolist',
             title: 'React Todolist',
             desc: 'Awesome todolist with a pretty design App in which you can create a list of your tasks. You can add, change, delete your names Powered by API from samuraijs.com, all your data is stored on the server',
-            img: 'todolist',
             stack: [
                 'React',
                 'Redux/Thunk',
@@ -101,10 +103,10 @@ export const state = {
         {
             id: 2,
             type: 'react',
+            name: 'network',
             title: 'React Social Network',
             desc: `A tiny social network that demonstrates the main features of the React application paired with Redux state management 
                 You can sign in (using validation and captcha), make changes to your profile information, status, add posts. There are over 20,000 active users`,
-            img: 'network',
             stack: [
                 'React',
                 'Redux/Thunk',
@@ -122,10 +124,10 @@ export const state = {
         {
             id: 3,
             type: 'react',
+            name: 'network',
             title: 'Social Network',
             desc: `A tiny social network that demonstrates the main features of the React application paired with Redux state management 
                 You can sign in (using validation and captcha), make changes to your profile information, status, add posts. There are over 20,000 active users`,
-            img: 'network',
             stack: [
                 'React',
                 'Redux/Thunk',
@@ -138,6 +140,18 @@ export const state = {
             links: {
                 demo: 'https://3admitry.github.io/react-social-network',
             }
+        },
+        {
+            id: 4,
+            type: 'design',
+            name: 'belsharm',
+            title: 'Belsharm',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+                'Adobe Photoshop',
+            ],
+            images: [1,2,3]
         },
     ]
 }

@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="modify WorkTabs.tsx experimental Tabs mui">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/Work.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/works/belsharm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/works/dsg/belsharm/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/works/dsg/belsharm/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/works/dsg/belsharm/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/external.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/ext.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/git.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/miniGit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/Work.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/Work.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/Work.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkTabs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +52,11 @@
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "D:/js/portfolio-react/src/assets/images/icons",
     "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "D:\\dev\\js\\it-incubator\\projects\\portfolio-react\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\js\\portfolio-react\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,9 +64,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\js\portfolio-react\src\assets\images\icons" />
       <recent name="D:\js\portfolio-react\src\assets\images\works" />
+      <recent name="D:\js\portfolio-react\src\assets\images\works\dsg" />
       <recent name="D:\js\portfolio-react\src\components\about" />
       <recent name="D:\js\portfolio-react\src\assets\images" />
-      <recent name="D:\js\portfolio-react\src\components\ornament" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\assets\scss" />
@@ -136,6 +134,8 @@
       <workItem from="1655473757628" duration="4562000" />
       <workItem from="1658741564102" duration="14000" />
       <workItem from="1659448517005" duration="7511000" />
+      <workItem from="1659528948377" duration="127000" />
+      <workItem from="1659529089070" duration="9624000" />
     </task>
     <task id="LOCAL-00001" summary="keep coding">
       <created>1653579354417</created>

@@ -31,11 +31,10 @@ export default function LabTabs() {
                     <TabList onChange={handleChange} aria-label="work tabs">
                         <Tab className={'customTab'} label="All" value="all"/>
                         <Tab className={'customTab'} label="React/Redux" value="react"/>
-                        <Tab className={'customTab'} label="HTML/CSS" value="2"/>
-                        <Tab className={'customTab'} label="PHP" value="3"/>
-                        <Tab className={'customTab'} label="SEO" value="4"/>
-                        <Tab className={'customTab'} label="Design" value="5"/>
-                        <Tab className={'customTab'} label="All" value="6"/>
+                        <Tab className={'customTab'} label="PHP" value="php"/>
+                        <Tab className={'customTab'} label="SEO" value="seo"/>
+                        <Tab className={'customTab'} label="Design" value="design"/>
+                        <Tab className={'customTab'} label="HTML/CSS" value="html"/>
                     </TabList>
                 </Box>
                 <div className={style.workBoxs}>
