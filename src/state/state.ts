@@ -209,13 +209,14 @@ export const state = {
             }
         },
         {
-            id: 11, type: 'php', name: 'belsharm', title: 'Belsharm',
+            id: 11, type: 'php, design', name: 'belsharm', title: 'Belsharm',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1, 2, 3],
             links: {
                 demo: 'https://motoplanet.by/',
             }
@@ -233,13 +234,14 @@ export const state = {
             }
         },
         {
-            id: 11, type: 'php', name: 'dosaaf', title: 'Driving school',
+            id: 11, type: 'php, design', name: 'dosaaf', title: 'Driving school',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1, 2, 3, 4, 5, 6, 7,],
             links: {
                 demo: 'http://avtoshkola.brest.by/',
             }
@@ -369,6 +371,19 @@ export const state = {
                 'Adobe Photoshop',
             ],
             images: [1, 2, 3],
+
+        },
+        {
+            id: 4,
+            type: 'design',
+            name: 'iststroy',
+            title: 'IstStroy - roof installation',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+                'Adobe Photoshop',
+            ],
+            images: [1, 2, 3, 4, 5, 6, 7],
 
         },
     ]

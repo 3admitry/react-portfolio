@@ -41,27 +41,31 @@
       justify-content: right;
       align-items: center;
 
-      .git{
+      .git {
         position: relative;
         top: 1px;
         z-index: 2;
-        svg{
+
+        svg {
           width: 20px;
           height: 20px;
         }
       }
 
-      a,span {
+      a {
         margin-left: 10px;
         z-index: 1;
         cursor: pointer;
-        svg{
+
+        svg {
           width: 22px;
           height: 22px;
         }
-        &:hover{
+
+        &:hover {
           color: $green;
         }
+
         &:before {
           content: "";
           display: block;
@@ -73,7 +77,32 @@
           left: 0px;
         }
       }
-      .projectType{
+
+      &Design {
+        color: #a8b2d1;
+        margin-left: 10px;
+        z-index: 2;
+        cursor: pointer;
+        position: relative;
+
+        &:hover {
+          color: $green;
+        }
+
+        svg {
+          width: 19px;
+          height: 19px;
+        }
+
+        .countImages {
+          font-size: 10px;
+          position: relative;
+          top: -15px;
+          left: 2px;
+        }
+      }
+
+      .projectType {
         font-size: $fz-13;
         color: $dark-slate;
         font-family: monospace;
@@ -83,7 +112,7 @@
     &Info {
       display: flex;
       gap: 15px;
-      min-height:260px;
+      min-height: 260px;
 
       &Image {
         flex-basis: 223px;
@@ -111,6 +140,7 @@
         &Stack {
           margin-top: auto;
           line-height: $fz-13;
+
           ul {
             list-style: none;
             margin: 0;

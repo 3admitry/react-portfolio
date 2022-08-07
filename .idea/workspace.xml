@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="keep coding">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/works/family.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/works/fortress.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/works/seoplane.jpg" afterDir="false" />
+    <list default="true" id="1c41c9ae-9129-4b03-a619-0ca74e393090" name="Changes" comment="keep added 'Works'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/works/belsharm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/works/belsharm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/works/network.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/works/network.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/works/todolist.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/Work.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/Work.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkTab.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/state.ts" afterDir="false" />
     </list>
@@ -45,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/dev/js/it-incubator/projects/portfolio-react/src/assets/images/icons",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "D:\\dev\\js\\it-incubator\\projects\\portfolio-react\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/js/it-incubator/projects/portfolio-react/src/assets/images/icons&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\dev\\js\\it-incubator\\projects\\portfolio-react\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\js\it-incubator\projects\portfolio-react\src\assets\images\icons" />
@@ -135,7 +129,8 @@
       <workItem from="1659448517005" duration="7511000" />
       <workItem from="1659830048185" duration="2181000" />
       <workItem from="1659836401400" duration="828000" />
-      <workItem from="1659867773385" duration="12633000" />
+      <workItem from="1659867773385" duration="12827000" />
+      <workItem from="1659903493418" duration="4024000" />
     </task>
     <task id="LOCAL-00001" summary="keep coding">
       <created>1653579354417</created>
@@ -214,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658340176372</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="keep added 'Works'">
+      <created>1659891028098</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659891028099</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +247,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="keep coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="keep coding" />
+    <MESSAGE value="keep added 'Works'" />
+    <option name="LAST_COMMIT_MESSAGE" value="keep added 'Works'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

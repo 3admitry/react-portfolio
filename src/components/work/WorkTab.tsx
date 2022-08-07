@@ -30,11 +30,10 @@ const WorkTab = ({project}: propsType) => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const bgUrl = require(`../../assets/images/works/${project.name}.jpg`);
 
-    console.log('Render')
-
-    if (project.type === 'design') {
-        var images = project.images?.map(el => require(`../../assets/images/works/dsg/${project.name}/${el}.jpg`))
-    }
+    /*   if (project.type === 'design') {
+           var images = project.images?.map(el => require(`../../assets/images/works/dsg/${project.name}/${el}.jpg`))
+       }*/
+    let images = project.images?.map(el => require(`../../assets/images/works/dsg/${project.name}/${el}.jpg`))
 
     // @ts-ignore
     // @ts-ignore
@@ -42,24 +41,26 @@ const WorkTab = ({project}: propsType) => {
         <div className={style.workBox}>
             <div className={style.workBoxTop}>
                 <span className={style.projectType}>{project.type}</span>
-                {project.type === 'design'
-                    ? <a href={void(0)} title={'Show images'} onClick={() => setIsOpen(true)}>
-                                <Image/>
-                       </a>
-                    : <>
-                        {project.links?.git &&
-                            <a className={style.git} href={project.links.git} target={'_blank'}
-                               title={'Ling to githab repository'} rel="noreferrer">
-                                <Git/>
-                            </a>
-                        }
-                        {project.links?.demo &&
-                            <a href={project.links.demo} target={'_blank'} title={'External link to demo'}
-                               rel="noreferrer">
-                                <Ext/>
-                            </a>
-                        }
-                    </>
+
+                {project.links?.git &&
+                    <a className={style.git} href={project.links.git} target={'_blank'}
+                       title={'Ling to githab repository'} rel="noreferrer">
+                        <Git/>
+                    </a>
+                }
+
+                {project.images &&
+                    <span className={style.workBoxTopDesign} title={'Show design'} onClick={() => setIsOpen(true)}>
+                        <Image/>
+                        <span className={style.countImages}>{project.images.length}</span>
+                    </span>
+                }
+
+                {project.links?.demo &&
+                    <a href={project.links.demo} target={'_blank'} title={'External link'}
+                       rel="noreferrer">
+                        <Ext/>
+                    </a>
                 }
 
             </div>
@@ -79,8 +80,8 @@ const WorkTab = ({project}: propsType) => {
             {isOpen && (
                 <Lightbox
                     mainSrc={images && images[photoIndex]}
-                    nextSrc={images && !(images.length===1) && images[(photoIndex + 1) % images.length]}
-                    prevSrc={images && !(images.length===1) && images[(photoIndex + images.length - 1) % images.length]}
+                    nextSrc={images && !(images.length === 1) && images[(photoIndex + 1) % images.length]}
+                    prevSrc={images && !(images.length === 1) && images[(photoIndex + images.length - 1) % images.length]}
                     onCloseRequest={() => setIsOpen(false)}
                     onMovePrevRequest={() => images && setPhotoIndex((photoIndex + images.length - 1) % images.length)}
                     onMoveNextRequest={() => images && setPhotoIndex((photoIndex + 1) % images.length)}
