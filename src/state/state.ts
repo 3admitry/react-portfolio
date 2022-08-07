@@ -79,6 +79,24 @@ export const state = {
     },
     work: [
         {
+            id: 0,
+            type: 'php',
+            name: 'seoplane',
+            title: 'SeoPlane - SEO-project management system',
+            desc: `SeoPlane is a multifunctional system for managing seo-projects, tasks, which allows you to streamline and automate business processes using a unique modules (e.g. seo-radar) and integrations with third-party services.`,
+            stack: [
+                'PHP',
+                'MVC',
+                'Javascript',
+                'Bootstrap',
+                'CURL',
+                'Others',
+            ],
+            links: {
+                demo: 'https://seoplane.3admitry.com',
+            }
+        },
+        {
             id: 1,
             type: 'react',
             name: 'todolist',
@@ -122,25 +140,224 @@ export const state = {
             }
         },
         {
-            id: 3,
-            type: 'react',
-            name: 'network',
-            title: 'Social Network',
-            desc: `A tiny social network that demonstrates the main features of the React application paired with Redux state management 
-                You can sign in (using validation and captcha), make changes to your profile information, status, add posts. There are over 20,000 active users`,
+            id: 10, type: 'php', name: 'family', title: 'Genealogy 3a',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
-                'React',
-                'Redux/Thunk',
-                'React-router-dom',
-                'Unit tests',
-                'React-hook-form',
-                'Ant design',
-                'SASS',
+                'PHP',
+                'MVC',
+                'Javascript',
+                'Bootstrap',
+                'CURL',
+                'Others',
             ],
             links: {
-                demo: 'https://3admitry.github.io/react-social-network',
+                demo: 'http://genealogy.3admitry.com/',
             }
         },
+        {
+            id: 11, type: 'php', name: 'fortress', title: 'Brest Fortress',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Joomla',
+                'React',
+                'Virturemart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://brest-fortress.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'novamed', title: 'NovaMed',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Joomla',
+                'React',
+                'Virturemart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://7703.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'jardan', title: 'Jardan',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Joomla',
+                'React',
+                'Virturemart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://jardan.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'motoplanet', title: 'Motoplanet',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://motoplanet.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'belsharm', title: 'Belsharm',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://motoplanet.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'patriot', title: 'PatriotStroy',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://patriotstroy.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'dosaaf', title: 'Driving school',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'http://avtoshkola.brest.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'gorodfm', title: 'GorodFM - radio station',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://gorodfm.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'checkauto', title: 'CheckAuto',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://gorodfm.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'retina', title: 'Retina - eye clinic',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://retina.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'bve', title: 'BVE - ventilation systems',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'http://bvefans.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'zvezdastom', title: 'ZvezdaStom - dental clinic',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'https://zvezdastom.by/',
+            }
+        },
+        {
+            id: 11, type: 'php', name: 'ravt', title: 'Ravt - curtains for cars',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                demo: 'http://ravt.by/',
+            }
+        },
+        {
+            id: 11, type: 'react', name: 'counter', title: 'React Counter',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                git: 'https://github.com/3admitry/react-counter/tree/main',
+                demo: 'https://3admitry.github.io/react-counter/',
+            }
+        },
+        {
+            id: 11, type: 'react', name: 'tic-tac-toe', title: 'React Tic-Tac-Toe',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                git: 'https://github.com/3admitry/react-tic-tac-toe',
+                demo: 'https://3admitry.github.io/react-tic-tac-toe/',
+            }
+        },
+        {
+            id: 11, type: 'react', name: 'chat', title: 'React Websocket Chat',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            links: {
+                git: 'https://github.com/3admitry/react-chat-websocket',
+                demo: 'https://3admitry.github.io/react-chat-websocket/',
+            }
+        },
+
+
+        //DESIGN !!!!!!!!!
         {
             id: 4,
             type: 'design',
@@ -151,7 +368,8 @@ export const state = {
                 'Adobe XD',
                 'Adobe Photoshop',
             ],
-            images: [1,2,3]
+            images: [1, 2, 3],
+
         },
     ]
 }

@@ -3,6 +3,7 @@ import style from '../../assets/scss/Work.module.scss';
 import todoImg from '../../assets/images/works/todolist.jpg';
 import {ReactComponent as Ext} from '../../assets/images/icons/ext.svg';
 import {ReactComponent as Git} from '../../assets/images/icons/git.svg';
+import {ReactComponent as Image} from '../../assets/images/icons/image.svg';
 import {ReactComponent as Gallery} from '../../assets/images/icons/gallery.svg';
 import {RootStateType} from '../../state/state';
 import Lightbox from 'react-image-lightbox';
@@ -42,9 +43,9 @@ const WorkTab = ({project}: propsType) => {
             <div className={style.workBoxTop}>
                 <span className={style.projectType}>{project.type}</span>
                 {project.type === 'design'
-                    ? <span title={'Show images'} onClick={() => setIsOpen(true)}>
-                                <Ext/>
-                       </span>
+                    ? <a href={void(0)} title={'Show images'} onClick={() => setIsOpen(true)}>
+                                <Image/>
+                       </a>
                     : <>
                         {project.links?.git &&
                             <a className={style.git} href={project.links.git} target={'_blank'}
