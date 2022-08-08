@@ -34,18 +34,24 @@ export default function LabTabs() {
                         <Tab className={'customTab'} label="PHP" value="php"/>
                         <Tab className={'customTab'} label="SEO" value="seo"/>
                         <Tab className={'customTab'} label="Design" value="design"/>
-                        <Tab className={'customTab'} label="HTML/CSS" value="html"/>
+                        <Tab className={'customTab'} label="Speeches/Video" value="speeches"/>
                     </TabList>
                 </Box>
                 <div className={style.workBoxs}>
                     {
                         state.work.map(el => {
                             return (
-                                <CustomizedTabPanel key={el.id} value={value === 'all' ? 'all' : el.type}>
+                                <CustomizedTabPanel key={el.id} value={value === 'all' ? 'all'
+                                    : el.type.indexOf(value) !== -1 ? value : ''}>
                                     <WorkTab project={el}/>
                                 </CustomizedTabPanel>
                             )
                         })
+                    }
+                    { value==='seo' &&
+                        <>
+                        I have a lot of examples of SEO-projects, but i thinks that here it's no sense to public here, because my current direction is Front-end developing
+                        </>
                     }
                 </div>
             </TabContext>

@@ -1,3 +1,6 @@
+// import React from "react";
+import {v4} from 'uuid';
+
 export const state = {
     skills: {
         html: {
@@ -79,7 +82,7 @@ export const state = {
     },
     work: [
         {
-            id: 0,
+            id: v4(),
             type: 'php',
             name: 'seoplane',
             title: 'SeoPlane - SEO-project management system',
@@ -94,10 +97,11 @@ export const state = {
             ],
             links: {
                 demo: 'https://seoplane.3admitry.com',
-            }
+            },
+            featured: true,
         },
         {
-            id: 1,
+            id: v4(),
             type: 'react',
             name: 'todolist',
             title: 'React Todolist',
@@ -116,10 +120,11 @@ export const state = {
             links: {
                 git: 'https://github.com/3admitry/react-todolist',
                 demo: 'https://3admitry.github.io/react-todolist',
-            }
+            },
+            featured: true,
         },
         {
-            id: 2,
+            id: v4(),
             type: 'react',
             name: 'network',
             title: 'React Social Network',
@@ -137,10 +142,11 @@ export const state = {
             links: {
                 git: 'https://github.com/3admitry/react-social-network',
                 demo: 'https://3admitry.github.io/react-social-network',
-            }
+            },
+            featured: true,
         },
         {
-            id: 10, type: 'php', name: 'family', title: 'Genealogy 3a',
+            id: v4(), type: 'php', name: 'family', title: 'Genealogy 3a',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -152,10 +158,11 @@ export const state = {
             ],
             links: {
                 demo: 'http://genealogy.3admitry.com/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'fortress', title: 'Brest Fortress',
+            id: v4(), type: 'php, design', name: 'fortress', title: 'Brest Fortress',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -164,12 +171,14 @@ export const state = {
                 'Virturemart',
                 'Javascript',
             ],
+            images: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,13,14],
             links: {
                 demo: 'https://brest-fortress.by/',
-            }
+            },
+            featured: true,
         },
         {
-            id: 11, type: 'php', name: 'novamed', title: 'NovaMed',
+            id: v4(), type: 'php', name: 'novamed', title: 'NovaMed',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -180,10 +189,11 @@ export const state = {
             ],
             links: {
                 demo: 'https://7703.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'jardan', title: 'Jardan',
+            id: v4(), type: 'php', name: 'jardan', title: 'Jardan',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -194,22 +204,25 @@ export const state = {
             ],
             links: {
                 demo: 'https://jardan.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'motoplanet', title: 'Motoplanet',
+            id: v4(), type: 'php, design', name: 'motoplanet', title: 'Motoplanet',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
             links: {
                 demo: 'https://motoplanet.by/',
-            }
+            },
+            featured: true,
         },
         {
-            id: 11, type: 'php, design', name: 'belsharm', title: 'Belsharm',
+            id: v4(), type: 'php, design', name: 'belsharm', title: 'Belsharm',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -219,22 +232,25 @@ export const state = {
             images: [1, 2, 3],
             links: {
                 demo: 'https://motoplanet.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'patriot', title: 'PatriotStroy',
+            id: v4(), type: 'php, design', name: 'patriot', title: 'PatriotStroy',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,],
             links: {
                 demo: 'https://patriotstroy.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php, design', name: 'dosaaf', title: 'Driving school',
+            id: v4(), type: 'php, design', name: 'dosaaf', title: 'Driving school',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -244,34 +260,39 @@ export const state = {
             images: [1, 2, 3, 4, 5, 6, 7,],
             links: {
                 demo: 'http://avtoshkola.brest.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'gorodfm', title: 'GorodFM - radio station',
+            id: v4(), type: 'php, design', name: 'gorodfm', title: 'GorodFM - radio station',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1],
             links: {
                 demo: 'https://gorodfm.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'checkauto', title: 'CheckAuto',
+            id: v4(), type: 'php, design', name: 'checkauto', title: 'CheckAuto',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1,2],
             links: {
                 demo: 'https://gorodfm.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'retina', title: 'Retina - eye clinic',
+            id: v4(), type: 'php', name: 'retina', title: 'Retina - eye clinic',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -280,22 +301,25 @@ export const state = {
             ],
             links: {
                 demo: 'https://retina.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'bve', title: 'BVE - ventilation systems',
+            id: v4(), type: 'php, design', name: 'bve', title: 'BVE - ventilation systems',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
                 'Opencart',
                 'Javascript',
             ],
+            images: [1, 2, 3, 4, 5, 6, 7,],
             links: {
                 demo: 'http://bvefans.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'zvezdastom', title: 'ZvezdaStom - dental clinic',
+            id: v4(), type: 'php', name: 'zvezdastom', title: 'ZvezdaStom - dental clinic',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -304,10 +328,11 @@ export const state = {
             ],
             links: {
                 demo: 'https://zvezdastom.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'php', name: 'ravt', title: 'Ravt - curtains for cars',
+            id: v4(), type: 'php', name: 'ravt', title: 'Ravt - curtains for cars',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -316,10 +341,11 @@ export const state = {
             ],
             links: {
                 demo: 'http://ravt.by/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'react', name: 'counter', title: 'React Counter',
+            id: v4(), type: 'react', name: 'counter', title: 'React Counter',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -329,10 +355,11 @@ export const state = {
             links: {
                 git: 'https://github.com/3admitry/react-counter/tree/main',
                 demo: 'https://3admitry.github.io/react-counter/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'react', name: 'tic-tac-toe', title: 'React Tic-Tac-Toe',
+            id: v4(), type: 'react', name: 'tic-tac-toe', title: 'React Tic-Tac-Toe',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -342,10 +369,11 @@ export const state = {
             links: {
                 git: 'https://github.com/3admitry/react-tic-tac-toe',
                 demo: 'https://3admitry.github.io/react-tic-tac-toe/',
-            }
+            },
+            featured: false,
         },
         {
-            id: 11, type: 'react', name: 'chat', title: 'React Websocket Chat',
+            id: v4(), type: 'react', name: 'chat', title: 'React Websocket Chat',
             desc: `FamilyTree - this the webApp about genealogy of my family`,
             stack: [
                 'PHP',
@@ -355,36 +383,106 @@ export const state = {
             links: {
                 git: 'https://github.com/3admitry/react-chat-websocket',
                 demo: 'https://3admitry.github.io/react-chat-websocket/',
-            }
+            },
+            featured: false,
+        },
+        {
+            id: v4(), type: 'php, design', name: 'shelcoprint', title: 'ShelcoPrint - printed products',
+            desc: `FamilyTree - this the webApp about genealogy of my family`,
+            stack: [
+                'PHP',
+                'Opencart',
+                'Javascript',
+            ],
+            images: [1, 2, 3, 4, 5, 6, 7],
+            links: {
+                demo: 'https://shelcoprint.by/',
+            },
+            featured: false,
+        },
+        {
+            id: v4(), type: 'php, design', name: 'seoclick', title: 'SeoClick - web-agency',
+            desc: `A personal website of web-agency SeoClick, that provide services in promotion and develop web application`,
+            stack: [
+                'PHP',
+                'HTML/SCSS',
+                'JS',
+                'Joomla',
+            ],
+            images: [1, 2, 3, 4, 5, 6],
+            links: {
+                demo: 'https://seoclick.by/',
+            },
+            featured: true,
         },
 
 
         //DESIGN !!!!!!!!!
         {
-            id: 4,
-            type: 'design',
-            name: 'belsharm',
-            title: 'Belsharm',
-            desc: `A light design for online store of women's clothing `,
-            stack: [
-                'Adobe XD',
-                'Adobe Photoshop',
-            ],
-            images: [1, 2, 3],
-
-        },
-        {
-            id: 4,
-            type: 'design',
-            name: 'iststroy',
-            title: 'IstStroy - roof installation',
+            id: v4(), type: 'design', name: 'iststroy', title: 'IstStroy - roof installation',
             desc: `A light design for online store of women's clothing `,
             stack: [
                 'Adobe XD',
                 'Adobe Photoshop',
             ],
             images: [1, 2, 3, 4, 5, 6, 7],
-
+            featured: false,
+        },
+        {
+            id: v4(), type: 'design', name: 'eauto', title: 'Cars from the USA',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+            ],
+            images: [1],
+            featured: false,
+        },
+        {
+            id: v4(), type: 'design', name: 'apple', title: 'Apple re:Store',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+            ],
+            images: [1, 2, 3],
+            featured: true,
+        },
+        {
+            id: v4(), type: 'design', name: 'prgrup', title: 'PRgrup - building company',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+            ],
+            images: [1, 2, 3,4,5,6,7,8,9,10,11],
+            featured: false,
+        },
+        {
+            id: v4(), type: 'design', name: 'rgtf', title: 'RGTF - online store tulle',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+            ],
+            images: [1, 2, 3,4,5,6,],
+            featured: false,
+        },
+        {
+            id: v4(), type: 'design', name: 'metallan', title: 'Redesign website sale of rolled metal ',
+            desc: `A light design for online store of women's clothing `,
+            stack: [
+                'Adobe XD',
+            ],
+            images: [1, 2, 3],
+            featured: false,
+        },
+        {
+            id: v4(), type: 'speeches', name: 'video', title: 'How to attract new customers with the Google and Yandex: SEO and PPC - Zagluhinsky Dmitry ',
+            desc: `1С-Bitrix: Business automation in the cloud, Belarus, Brest, 2017`,
+            stack: [
+                'Soft skill, Conference, Presentation',
+            ],
+            links:{
+                demo: 'https://www.youtube.com/watch?v=mRVgFsPizAo'
+            },
+            featured: true,
         },
     ]
 }

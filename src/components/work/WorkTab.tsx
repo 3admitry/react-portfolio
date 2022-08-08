@@ -8,10 +8,11 @@ import {ReactComponent as Gallery} from '../../assets/images/icons/gallery.svg';
 import {RootStateType} from '../../state/state';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
+import cn from "classnames";
 
 type propsType = {
     project: {
-        id: number
+        id: string
         type: string
         name: string
         title: string
@@ -22,6 +23,7 @@ type propsType = {
             demo?: string
         }
         images?: Array<number>
+        featured: boolean
     }
 }
 
@@ -38,7 +40,7 @@ const WorkTab = ({project}: propsType) => {
     // @ts-ignore
     // @ts-ignore
     return (
-        <div className={style.workBox}>
+        <div className={cn(style.workBox, {[style.featuredBox]: project.featured})}>
             <div className={style.workBoxTop}>
                 <span className={style.projectType}>{project.type}</span>
 

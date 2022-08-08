@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import style from './Ornament.module.css';
+import {v4} from 'uuid';
 import orn from '../../assets/images/icons/ornament.svg'
 
 
@@ -41,7 +42,7 @@ const Ornament = () => {
     return (
         <div className={style.ornament}>
             <div className={style.mainItem}></div>
-            {htmlOrnamets.map(el => <div className={style.item}></div>)}
+            {htmlOrnamets.map(el => <div key={v4()} className={style.item}></div>)}
         </div>
     );
 };
