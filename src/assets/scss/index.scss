@@ -46,10 +46,29 @@ code {
 }
 
 a {
-    color: $light-slate;
+    color: $green;
     transition: $transition;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
     &:hover{
         color: $green;
+        outline: 0px;
+        &:after{
+            width: 100%;
+        }
+    }
+    &:after{
+        content: "";
+        display: block;
+        width: 0px;
+        height: 1px;
+        position: relative;
+        //bottom: 0.37em;
+        background-color: $green;
+        transition: $transition;
+        opacity: 0.5;
     }
 }
 

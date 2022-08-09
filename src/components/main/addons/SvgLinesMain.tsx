@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../Main.module.css'
+import style from '../../../assets/scss/Main.module.scss'
 
 type propsType = {}
 

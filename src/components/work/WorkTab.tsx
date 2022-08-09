@@ -1,13 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import style from '../../assets/scss/Work.module.scss';
-import todoImg from '../../assets/images/works/todolist.jpg';
 import {ReactComponent as Ext} from '../../assets/images/icons/ext.svg';
 import {ReactComponent as Git} from '../../assets/images/icons/git.svg';
 import {ReactComponent as Image} from '../../assets/images/icons/image.svg';
-import {ReactComponent as Gallery} from '../../assets/images/icons/gallery.svg';
-import {RootStateType} from '../../state/state';
 import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
+import 'react-image-lightbox/style.css';
 import cn from "classnames";
 
 type propsType = {

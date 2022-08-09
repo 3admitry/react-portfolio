@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Main.module.css'
+import style from '../../assets/scss/Main.module.scss'
 import commonStyle from '../../common/styles/Container.module.css'
 import myselfPhoto from '../../assets/images/myself.webp'
 import digitalPhoto from '../../assets/images/myself-digital.webp'
