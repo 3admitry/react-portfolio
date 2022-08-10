@@ -22,7 +22,7 @@ const SvgLinesMain: React.FC<propsType> = () => {
                               </g>
                           </g>
                       </g>
-                      <path className={style.mainLine} id="mainLine" d="M0,180V0" transform="translate(959.5 634.5)" fill="none" stroke="#5ae6c7" stroke-width="1"/>
+                      <path id="mainLine" d="M0,180V0" transform="translate(959.5 634.5)" fill="none" stroke="#5ae6c7" strokeWidth="1"/>
                   </g>
               </g>
           </svg>

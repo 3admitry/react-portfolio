@@ -1,106 +1,141 @@
-.main {
-    height: 90vh;
-}
+@import 'variables';
 
-.main::after {
+.main {
+  height: 90vh;
+
+  &:after {
     content: '';
     width: 100%;
     height: 500px;
     position: absolute;
     background: linear-gradient(0deg, var(--oceanic-lightest) 0%, var(--oceanic-light) 100%);
-    bottom: 0;
+    bottom: -22px;
     z-index: -1;
-}
+  }
 
-.container {
+  .container {
     align-items: flex-start;
     justify-content: space-between;
     margin: 0 auto;
-}
 
-.leftBlock {
-    display: flex;
-    flex-flow: column;
-    align-items: stretch;
-    height: 100%;
-}
+    .leftBlock {
+      display: flex;
+      flex-flow: column;
+      align-items: stretch;
+      height: 100%;
 
-.leftBlock > div:nth-child(1) {
-    padding-top: 196px;
-}
+      &Content {
+        padding-top: 196px;
 
-.rightBlock > div:nth-child(1) {
-    padding-top: 71px;
-}
+        .intro {
+          font-size: 1.7rem;
+        }
 
-.leftBlock .directionBlock {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-grow: 1;
-    padding-bottom: 10px;
-}
+        .bigDescription {
+          font-size: 1.5rem;
+        }
 
-.intro {
-    font-size: 1.7rem;
-}
+        .smallDescription {
+          font-size: 1rem;
+          color: var(--slate);
+        }
+      }
 
-.bigDescription {
-    font-size: 1.5rem;
-}
+      .directionBlock {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-grow: 1;
+        padding-bottom: 10px;
+      }
 
-.smallDescription {
-    font-size: 1rem;
-    color: var(--slate);
-}
+      .connected {
+        display: flex;
+        margin-top: 50px;
 
-.imgBlock {
-    margin-top: 20px;
-}
+        .connectedLinks {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 17px;
 
-.photo {
-    width: 364px;
-    height: 413px;
-    background: url("../images/myself.webp");
-    background-size: cover;
-}
-.digital{
-    background-position-x: -363.8px;
-}
+          .socLinks {
+            color: $slate;
 
-.imageSwitcher {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 14px;
-    font-size: 20px;
-}
-.imageSwitcher > div:nth-child(1){
-    padding-right: 15px;
-}
+            svg {
+              width: 26px;
+            }
 
-.active {
-    color: var(--green);
-}
+            &:after {
+              display: none;
+            }
 
-.connected {
-    display: flex;
-    margin-top: 50px;
-}
+            &:hover {
+              color: $green;
 
-.connectedLinks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 17px;
+              &:after {
+                display: none;
+              }
+            }
+          }
 
-}
+        }
+      }
+    }
 
-.ScrollBar {
+    .rightBlock {
+      .imgBlock {
+        margin-top: 91px;
+
+        .photo {
+          width: 364px;
+          height: 413px;
+          background: url("../images/myself.webp");
+          background-size: cover;
+        }
+
+        .digital {
+          background-position-x: -363.8px;
+        }
+
+        .imageSwitcher {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-left: 14px;
+          font-size: 20px;
+
+
+          .description {
+            padding-right: 15px;
+          }
+
+          .active {
+            color: var(--green);
+          }
+        }
+      }
+    }
+  }
+
+  .ScrollBar {
     position: absolute;
     bottom: 0;
     left: calc(100vw / 2 - 18px);
     z-index: 1;
+
+    a {
+      &:hover {
+        &:after {
+          display: none;
+        }
+      }
+
+      &:after {
+        display: none;
+      }
+    }
+  }
 }
 
 

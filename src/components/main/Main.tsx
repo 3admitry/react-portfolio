@@ -11,7 +11,11 @@ import {styled} from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Stack from '@mui/material/Stack';
-import SvgLinesMain from "./addons/SvgLinesMain";
+import SvgLinesMain from './addons/SvgLinesMain';
+import cn from 'classnames';
+import {ReactComponent as Git} from '../../assets/images/icons/git.svg';
+import {ReactComponent as Link} from '../../assets/images/icons/link.svg';
+import {ReactComponent as Telegram} from '../../assets/images/icons/telegram.svg';
 
 
 const Main = React.memo(() => {
@@ -23,44 +27,37 @@ const Main = React.memo(() => {
 
     return (
         <section className={style.main}>
-            <div className={`${commonStyle.container} ${style.container}`}>
+            <div className={cn(style.container, commonStyle.container)}>
                 <div className={style.leftBlock}>
-                    <div>
+                    <div className={style.leftBlockContent}>
                         <span className={style.intro}>Hi there, I am</span>
                         <h1>Dmitry Zagluhinsky</h1>
                         <div className={style.bigDescription}>
                             A FRONT-END (REACT) SOFTWARE ENGINEER
                         </div>
                         <div className={style.smallDescription}>
-                            SEO-Specialist, Co-founder & ex-CEO digital-agency SeoClick
+                            Previous positions: PHP-developer, Co-founder "SeoClick", SEO-Specialist, UI
                         </div>
                         <div className={style.connected}>
                             <div className={style.connectedLinks}>
-                                <a href=""><img src={git} alt=""/></a>
-                                <a href=""><img src={link} alt=""/></a>
-                                <a href=""><img src={telegram} alt=""/></a>
-                                <a href='#' className={'button'}>Download CV</a>
+                                <a className={style.socLinks} href="https://github.com/3admitry" target={'_blank'} rel="noreferrer"><Git/></a>
+                                <a className={style.socLinks} href="www.linkedin.com/in/3admitry" target={'_blank'} rel="noreferrer"><Link/></a>
+                                <a className={style.socLinks} href="https://t.me/iiiadi" target={'_blank'} rel="noreferrer"><Telegram/></a>
+                                <a href="#" className={'button'} target={'_blank'} rel="noreferrer">Download CV</a>
                             </div>
                             {/*                        <div className={style.connectedCV}>
 
                         </div>*/}
                         </div>
                     </div>
-                    <div className={style.directionBlock}>
-                        <div>
-                            {/*<SvgLinesMain />*/}
-                        </div>
-                    </div>
 
                 </div>
                 <div className={style.rightBlock}>
                     <div className={style.imgBlock}>
-                        <div className={checked ? `${style.photo} ${style.digital}` :`${style.photo}`}>
-                            {/*<img  src={myselfPhoto} alt=""
-                                  width={'364px'} height={'413px'}/>*/}
+                        <div className={checked ? `${style.photo} ${style.digital}` : `${style.photo}`}>
                         </div>
                         <div className={style.imageSwitcher}>
-                            <div>MYSELF IN</div>
+                            <div className={style.description}>MYSELF IN</div>
                             <div>
                                 <FormGroup>
                                     <Stack direction="row" spacing={1} alignItems="center">
@@ -79,7 +76,7 @@ const Main = React.memo(() => {
                 </div>
             </div>
             <div className={style.ScrollBar}>
-                <SvgLinesMain/>
+                <a href="#aboutme"><SvgLinesMain/></a>
             </div>
         </section>
     );
@@ -115,7 +112,7 @@ const MaterialUISwitch = styled(Switch)(({}) => ({
         width: 32,
         height: 32,
         '&:before': {
-            content: "''",
+            content: '\'\'',
             position: 'absolute',
             width: '100%',
             height: '100%',

@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <div className={style.nav}>
             <span>{'{'}<a href="#">Home</a>{'}'}</span>
-            <span>{'{'}<a href="#">About</a>{'}'}</span>
+            <span>{'{'}<a href="#aboutme">About</a>{'}'}</span>
             <span>{'{'}<a href="#">Skills</a>{'}'}</span>
             <span>{'{'}<a href="#">Work</a>{'}'}</span>
             <span>{'{'}<a href="#">Contact</a>{'}'}</span>

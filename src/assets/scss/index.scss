@@ -1,5 +1,25 @@
 @import "variables";
 
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: $dark-slate $navy;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: $navy;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $dark-slate;
+    border: 3px solid $navy;
+    border-radius: 10px;
+}
+
 :root {
     --oceanic-dark: #0A192F;
     --oceanic-light: #162944;
@@ -40,10 +60,6 @@ body {
     color: var(--lightest-slate);
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 a {
     color: $green;
@@ -89,6 +105,12 @@ h4 {
     color: var(--green);
 }
 
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .button {
     color: var(--green);
     background-color: transparent;
@@ -102,12 +124,13 @@ h4 {
     transition: var(--transition);
     /*  margin-top: 50px;*/
     display: inline-block;
+
+    &:hover{
+        background-color: var(--green-tint);
+        outline: none;
+    }
 }
 
-.button:hover {
-    background-color: var(--green-tint);
-    outline: none;
-}
 
 .customTabs .customTab {
     color: var(--slate);
