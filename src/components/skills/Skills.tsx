@@ -1,14 +1,16 @@
 import React from 'react';
-import style from './Skills.module.css'
+import style from '../../assets/scss/Skills.module.scss'
 import commonStyle from '../../common/styles/Container.module.css'
 import iconSkillExample from '../../assets/images/icons/html.svg'
 import {RootStateType, state} from "../../state/state";
+import cn from "classnames";
+
 
 
 const Skills = () => {
     return (
         <section className={style.skills}>
-            <div className={`${commonStyle.container} ${style.container}`}>
+            <div className={cn(style.container, commonStyle.container)}>
                 <h2>{'<Skills />'}</h2>
                 <div className={style.skillBoxes}>
                     <div className={style.skillBox}><ShowSkills skills={state.skills.html}/></div>

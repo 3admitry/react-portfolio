@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from '../../assets/scss/Work.module.scss';
 import {ReactComponent as Ext} from '../../assets/images/icons/ext.svg';
-import {ReactComponent as Git} from '../../assets/images/icons/git.svg';
+import {ReactComponent as Git} from '../../assets/images/icons/gitOfficial.svg';
 import {ReactComponent as Image} from '../../assets/images/icons/image.svg';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';

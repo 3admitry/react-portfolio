@@ -1,167 +1,163 @@
 @import "variables";
 
 html {
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: $dark-slate $navy;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: $dark-slate $navy;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: $navy;
+  background: $navy;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: $dark-slate;
-    border: 3px solid $navy;
-    border-radius: 10px;
+  background-color: $dark-slate;
+  border: 3px solid $navy;
+  border-radius: 10px;
 }
 
 :root {
-    --oceanic-dark: #0A192F;
-    --oceanic-light: #162944;
-    --oceanic-lightest: #1B2F4A;
+  --oceanic-dark: #0A192F;
+  --oceanic-light: #162944;
+  --oceanic-lightest: #1B2F4A;
 
 
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
-    --navy-shadow: rgba(2, 12, 27, 0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
-    --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    --border-radius: 4px;
-    --fz-xxs: 12px;
-    --fz-xs: 13px;
-    --fz-sm: 14px;
-    --fz-md: 16px;
-    --fz-lg: 18px;
-    --fz-xl: 20px;
-    --fz-xxl: 22px;
+  --dark-navy: #020c1b;
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --dark-slate: #495670;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  --green-tint: rgba(100, 255, 218, 0.1);
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --border-radius: 4px;
+  --fz-xxs: 12px;
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-xxl: 22px;
 }
 
 body {
-    margin: 0;
-    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: var(--oceanic-light);
-    color: var(--lightest-slate);
+  margin: 0;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $oceanic-light;
+  color: $lightest-slate;
 }
 
 
 a {
+  color: $green;
+  transition: $transition;
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+
+  &:hover {
     color: $green;
-    transition: $transition;
-    display: inline-block;
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
+    outline: 0px;
+
+    &:after {
+      width: 100%;
+    }
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 1px;
     position: relative;
-    &:hover{
-        color: $green;
-        outline: 0px;
-        &:after{
-            width: 100%;
-        }
-    }
-    &:after{
-        content: "";
-        display: block;
-        width: 0px;
-        height: 1px;
-        position: relative;
-        //bottom: 0.37em;
-        background-color: $green;
-        transition: $transition;
-        opacity: 0.5;
-    }
+    //bottom: 0.37em;
+    background-color: $green;
+    transition: $transition;
+    opacity: 0.5;
+  }
 }
 
 h1 {
-    font-size: 57px;
-    color: var(--green);
-    margin: 20px 0;
+  font-size: 57px;
+  color: $green;
+  margin: 20px 0;
 }
 
 h2 {
-    font-size: 40px;
-    color: var(--green);
-    position: relative;
-    /*  margin: 20px 0;*/
+  font-size: 40px;
+  color: $green;
+  position: relative;
+  /*  margin: 20px 0;*/
 }
 
 h4 {
-    color: var(--green);
+  color: $green;
 }
 
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
 
 .button {
-    color: var(--green);
-    background-color: transparent;
-    border: 1px solid var(--green);
-    border-radius: var(--border-radius);
-    padding: 1.25rem 1.75rem;
-    font-size: var(--fz-sm);
-    line-height: 1;
-    text-decoration: none;
-    cursor: pointer;
-    transition: var(--transition);
-    /*  margin-top: 50px;*/
-    display: inline-block;
+  color: $green;
+  background-color: transparent;
+  border: 1px solid $green;
+  border-radius: $border-radius;
+  padding: 1.25rem 1.75rem;
+  font-size: $fz-14;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+  /*  margin-top: 50px;*/
+  display: inline-block;
 
-    &:hover{
-        background-color: var(--green-tint);
-        outline: none;
-    }
+  &:hover {
+    background-color: $green-tint;
+    outline: none;
+  }
 }
 
 
 .customTabs .customTab {
-    color: var(--slate);
-    align-items: flex-start;
-    padding-left: 42px;
+  color: $slate;
+  align-items: flex-start;
+  padding-left: 42px;
 }
 
 .customTabs .customTab span {
-    font-size: 12px;
-    margin-top: 3px;
-    font-weight: 400;
-    opacity: .5;
+  font-size: 12px;
+  margin-top: 3px;
+  font-weight: 400;
+  opacity: .5;
 }
 
 .customTabs .customTab.Mui-selected, .workTabs .customTab.Mui-selected {
-    color: var(--green);
+  color: $green;
 }
 
 .customTabs .MuiTabs-indicator, .workTabs .MuiTabs-indicator {
-    background-color: var(--green);
+  background-color: $green;
 
 }
 
 .workTabs .customTab {
-    color: var(--slate);
+  color:$slate;
 }
-
-
-
-
-/*src/assets/images/icons/ornament.svg*/
-
-
 

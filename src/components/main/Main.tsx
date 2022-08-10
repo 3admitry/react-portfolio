@@ -1,11 +1,9 @@
 import React from 'react';
 import style from '../../assets/scss/Main.module.scss'
 import commonStyle from '../../common/styles/Container.module.css'
-import myselfPhoto from '../../assets/images/myself.webp'
-import digitalPhoto from '../../assets/images/myself-digital.webp'
-import git from '../../assets/images/icons/git.svg'
-import link from '../../assets/images/icons/link.svg'
-import telegram from '../../assets/images/icons/telegram.svg'
+import {ReactComponent as Git} from '../../assets/images/icons/git.svg'
+import {ReactComponent as Link} from '../../assets/images/icons/link.svg'
+import {ReactComponent as Telegram} from '../../assets/images/icons/telegram.svg'
 import {Switch} from '@mui/material';
 import {styled} from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
@@ -13,9 +11,6 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Stack from '@mui/material/Stack';
 import SvgLinesMain from './addons/SvgLinesMain';
 import cn from 'classnames';
-import {ReactComponent as Git} from '../../assets/images/icons/git.svg';
-import {ReactComponent as Link} from '../../assets/images/icons/link.svg';
-import {ReactComponent as Telegram} from '../../assets/images/icons/telegram.svg';
 
 
 const Main = React.memo(() => {
@@ -41,7 +36,7 @@ const Main = React.memo(() => {
                         <div className={style.connected}>
                             <div className={style.connectedLinks}>
                                 <a className={style.socLinks} href="https://github.com/3admitry" target={'_blank'} rel="noreferrer"><Git/></a>
-                                <a className={style.socLinks} href="www.linkedin.com/in/3admitry" target={'_blank'} rel="noreferrer"><Link/></a>
+                                <a className={style.socLinks} href="https://www.linkedin.com/in/3admitry" target={'_blank'} rel="noreferrer"><Link/></a>
                                 <a className={style.socLinks} href="https://t.me/iiiadi" target={'_blank'} rel="noreferrer"><Telegram/></a>
                                 <a href="#" className={'button'} target={'_blank'} rel="noreferrer">Download CV</a>
                             </div>

@@ -65,11 +65,13 @@ const About = () => {
                         <h4>EDUCATION</h4>
                         <div className={style.education}>
                             <h5>Higher education:</h5>
+                            <div className={style.dateRange}>2008-2013</div>
                             <div className={style.eduTitle}>Brest State Technical University</div>
                             <div>Faculty › Electronics and Information systems</div>
                             <div>Specialization › Systems Engineer</div>
                             <div>Degree › Specialist</div>
-                            <h5>Secondary vocational:</h5>
+                            <h5>Vocational education:</h5>
+                            <div className={style.dateRange}>2005-2008</div>
                             <div className={style.eduTitle}>Brest State Professional Lyceum</div>
                             <div>Specialization › Computer Operator</div>
                         </div>

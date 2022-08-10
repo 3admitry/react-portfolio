@@ -19,25 +19,24 @@ export const state = {
             title: 'REACT/REDUX',
             description: '~1 Years Experience',
             items: [
-                {name: 'React', image: 'html'},
-                {name: 'Redux', image: 'css'},
-                {name: 'Redux-thunk', image: 'sass'},
-                {name: 'Unit Testing', image: 'module-css'},
-                {name: 'Storybook', image: 'bootstrap'},
-                {name: 'Material UI & Ant Design', image: 'bem'},
+                {name: 'React', image: 'react'},
+                {name: 'Redux', image: 'redux'},
+                {name: 'Redux-thunk', image: 'redux'},
+                {name: 'Unit Testing', image: 'test'},
+                {name: 'Storybook', image: 'storybook'},
+                {name: 'Material UI & Ant Design', image: 'mui'},
             ]
         },
         js: {
             title: 'JavaScript',
             description: '3+ Years Experience',
             items: [
-                {name: 'JS ES6+', image: 'html'},
-                {name: 'TypeScript', image: 'html'},
-                {name: 'Node.js', image: 'css'},
-                {name: 'Webpack', image: 'sass'},
-                {name: 'Gulp', image: 'module-css'},
-                {name: 'Yarn/npm', image: 'bootstrap'},
-                {name: 'Git', image: 'bem'},
+                {name: 'JS ES6+', image: 'js'},
+                {name: 'TypeScript', image: 'ts'},
+                {name: 'Node.js', image: 'node'},
+                {name: 'Webpack', image: 'webpack'},
+                {name: 'Yarn/npm', image: 'yarn'},
+                {name: 'Git', image: 'gitOfficial'},
             ]
         },
         seo: {
@@ -56,14 +55,14 @@ export const state = {
             title: 'Back&OtherStack',
             description: '6+ Years Experience',
             items: [
-                {name: 'PHP', image: 'html'},
-                {name: 'MySQL', image: 'css'},
-                {name: 'ООP/MVC/SOLID/DRY/KIS', image: 'sass'},
-                {name: 'Composer', image: 'module-css'},
-                {name: 'Nginx/Apache', image: 'bootstrap'},
+                {name: 'PHP', image: 'php'},
+                {name: 'MySQL', image: 'mysql'},
+                {name: 'ООP/MVC/SOLID/DRY/KIS', image: 'patterns'},
+                {name: 'Composer', image: 'composer'},
+                {name: 'Apache/Nginx', image: 'apache'},
                 {
                     name: 'Jooomla/Wordpress \n' +
-                        '& 15+ CMS Exp.', image: 'bem'
+                        '& 15+ CMS Exp.', image: 'cms'
                 },
             ]
         },
@@ -71,12 +70,11 @@ export const state = {
             title: 'Design',
             description: '15+ Years Experience',
             items: [
-                {name: 'Photoshop', image: 'html'},
-                {name: 'AdobeXD', image: 'css'},
-                {name: 'Figma', image: 'sass'},
-                {name: 'CorelDraw', image: 'module-css'},
-                {name: 'Adobe Illustr.', image: 'bootstrap'},
-                {name: 'Sketch', image: 'bem'},
+                {name: 'Photoshop', image: 'photoshop'},
+                {name: 'AdobeXD', image: 'xd'},
+                {name: 'Figma', image: 'figma'},
+                {name: 'CorelDraw', image: 'corel'},
+                {name: 'Adobe Illustr.', image: 'ai'},
             ]
         },
     },

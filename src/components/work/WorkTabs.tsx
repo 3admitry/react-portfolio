@@ -76,7 +76,7 @@ export default function LabTabs() {
                             huge number of projects that are SEO related. Some of them you can find on the <a
                             href="https://seoclick.by/portfolio/prodvizhenie-sajtov" target={'_blank'}
                             rel="noreferrer">link</a> or
-                            contact me, I will share them with you.
+                            contact me, I will share them with you. Honestly, there are a lot of them :)
                         </>
                     }
                 </div>
