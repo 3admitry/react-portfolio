@@ -4,15 +4,16 @@ import {v4} from 'uuid';
 export const state = {
     skills: {
         html: {
-            title: 'HTML/CSS',
-            description: '5+ Years Experience',
+            title: 'Soft Skills',
+            description: '7+ Years Experience',
             items: [
-                {name: 'HTML5', image: 'html'},
-                {name: 'CSS3', image: 'css'},
-                {name: 'Sass/SCSS', image: 'sass'},
-                {name: 'Module CSS', image: 'module-css'},
-                {name: 'Bootstrap', image: 'bootstrap'},
-                {name: 'BEM', image: 'bem'},
+                {name: `Teamplayer, Communication, Proactive`, image: `team`},
+                {name: `Self-organised, Self&Time-management`, image: `organised`},
+                {name: `Learn & Improve`, image: `learn`},
+                {name: `Responsibility, Ownership, Attention to details`, image: `responsibility`},
+                {name: `Result-thinking, Solution-oriented`, image: `result`},
+                {name: `Product/Business thinking`, image: `business`},
+                {name: `Troubleshooting, Analytical`, image: `troubleshooting`},
             ]
         },
         react: {
@@ -20,63 +21,65 @@ export const state = {
             description: '~1 Years Experience',
             items: [
                 {name: 'React', image: 'react'},
-                {name: 'Redux', image: 'redux'},
-                {name: 'Redux-thunk', image: 'redux'},
-                {name: 'Unit Testing', image: 'test'},
+                {name: 'Redux / Thunk', image: 'redux'},
                 {name: 'Storybook', image: 'storybook'},
-                {name: 'Material UI & Ant Design', image: 'mui'},
+                {name: 'Unit and Integration Testing, Jest', image: 'test'},
+                {name: 'React-Router-Dom', image: 'route'},
+                {name: 'React-Hook-Form / Formik', image: 'form'},
             ]
         },
         js: {
             title: 'JavaScript',
             description: '3+ Years Experience',
             items: [
-                {name: 'JS ES6+', image: 'js'},
+                {name: 'ES6+', image: 'js'},
                 {name: 'TypeScript', image: 'ts'},
                 {name: 'Node.js', image: 'node'},
                 {name: 'Webpack', image: 'webpack'},
                 {name: 'Yarn/npm', image: 'yarn'},
-                {name: 'Git', image: 'gitOfficial'},
+                {name: 'WebSocket', image: 'websocket'},
             ]
         },
         seo: {
             title: 'SEO',
             description: '10+ Years Experience',
             items: [
-                {name: 'search engine optimization expertise', image: 'html'},
-                {name: 'Keyword Research', image: 'css'},
-                {name: 'Meta Optimization', image: 'sass'},
-                {name: 'Content Optimization', image: 'module-css'},
-                {name: 'Link Building ', image: 'bootstrap'},
-                {name: 'Technical Audits', image: 'bem'},
+                {name: 'High expertise in search engine optimization', image: 'html'},
+                {name: 'SEO-software development', image: 'css'},
+                {name: 'Core Web Vitals', image: 'sass'},
+                {name: 'Development of SEO-strategies for large projects', image: 'module-css'},
+                {name: 'SEO-department management ', image: 'bootstrap'},
+                {name: 'SEO-analytics, hypotheses, research, implementation', image: 'bem'},
+            ]
+        },
+        design: {
+            title: 'Markup & UI/UX',
+            description: '10+ Years Experience',
+            items: [
+                {name: 'HTML5/CSS3', image: 'html'},
+                {name: 'SCSS/Module CSS', image: 'sass'},
+                {name: 'Block/Element/Modifier', image: 'bem'},
+                {name: 'MUI/AntDesign/Bootsrap', image: 'mui'},
+                {name: 'Adobe XD/Photoshop', image: 'xd'},
+                {name: 'Figma/CorelDraw', image: 'figma'},
             ]
         },
         backend: {
-            title: 'Back&OtherStack',
+            title: 'Back-end & Others stack',
             description: '6+ Years Experience',
             items: [
                 {name: 'PHP', image: 'php'},
                 {name: 'MySQL', image: 'mysql'},
-                {name: 'ООP/MVC/SOLID/DRY/KIS', image: 'patterns'},
-                {name: 'Composer', image: 'composer'},
                 {name: 'Apache/Nginx', image: 'apache'},
+                {name: 'ООP/MVC/SOLID/DRY/KISS', image: 'patterns'},
+                {name: 'Git / Composer', image: 'gitOfficial'},
                 {
                     name: 'Jooomla/Wordpress \n' +
                         '& 15+ CMS Exp.', image: 'cms'
                 },
             ]
         },
-        design: {
-            title: 'Design',
-            description: '15+ Years Experience',
-            items: [
-                {name: 'Photoshop', image: 'photoshop'},
-                {name: 'AdobeXD', image: 'xd'},
-                {name: 'Figma', image: 'figma'},
-                {name: 'CorelDraw', image: 'corel'},
-                {name: 'Adobe Illustr.', image: 'ai'},
-            ]
-        },
+
     },
     // My works
     works: [
@@ -118,7 +121,7 @@ export const state = {
                 'Integration tests',
                 'Formik',
                 'MUI',
-                'SASS',
+                'SCSS',
             ],
             links: {
                 git: 'https://github.com/3admitry/react-todolist',
@@ -140,7 +143,7 @@ export const state = {
                 'Unit tests',
                 'React-hook-form',
                 'Ant design',
-                'SASS',
+                'SCSS',
             ],
             links: {
                 git: 'https://github.com/3admitry/react-social-network',
@@ -263,6 +266,7 @@ export const state = {
             desc: `Basic Create React App which practices web socket works`,
             stack: [
                 'React',
+                'Websocket',
                 'TypeScript',
                 'Module CSS',
             ],

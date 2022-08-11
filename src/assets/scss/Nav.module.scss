@@ -1,0 +1,20 @@
+@import 'variables';
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    span{
+        color: $green;
+        margin-right: 1rem;
+        a{
+            color: $lightest-slate;
+            margin: 0 4px;
+            text-decoration: none;
+            &:hover{
+                text-decoration: inherit;
+                color: $green;
+            }
+        }
+    }
+}

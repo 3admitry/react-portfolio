@@ -1,14 +1,14 @@
 import React from 'react';
-import style from './Nav.module.css'
+import style from '../../../assets/scss/Nav.module.scss'
 
 const Nav = () => {
     return (
         <div className={style.nav}>
-            <span>{'{'}<a href="#">Home</a>{'}'}</span>
             <span>{'{'}<a href="#aboutme">About</a>{'}'}</span>
-            <span>{'{'}<a href="#">Skills</a>{'}'}</span>
-            <span>{'{'}<a href="#">Work</a>{'}'}</span>
-            <span>{'{'}<a href="#">Contact</a>{'}'}</span>
+            <span>{'{'}<a href="#experience">Experience</a>{'}'}</span>
+            <span>{'{'}<a href="#skills">Skills</a>{'}'}</span>
+            <span>{'{'}<a href="#work">Work</a>{'}'}</span>
+            <span>{'{'}<a href="#contact">Contact</a>{'}'}</span>
         </div>
     );
 };

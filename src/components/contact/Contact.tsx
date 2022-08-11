@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contact.module.scss'
+import style from '../../assets/scss/Contact.module.scss'
 import commonStyle from '../../common/styles/Container.module.css'
 import thxImg from '../../assets/images/thanks.webp'
 
@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <footer className={style.contact}>
             <div className={`${commonStyle.container} ${style.container}`}>
-                <h2>{'<Contact />'}</h2>
+                <h2 id={'contact'}>{'<Contact />'}</h2>
                 <div className={style.title}>Let's be in touch</div>
                 <div className={style.description}>
                     Now I'm looking for new opportunities and open to any suggestions.<br /> You can just 'Send Hello' to my inbox or 'Say Hello' in my Telegram
@@ -24,7 +24,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className={style.thxImg}>
-                    <img src={thxImg} width={'300px'} height={'300px'}/>
+                    <img src={thxImg} alt={''} height={'300px'}/>
                 </div>
             </div>
         </footer>

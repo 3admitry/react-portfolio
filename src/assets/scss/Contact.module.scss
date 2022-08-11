@@ -1,5 +1,7 @@
+@import 'variables';
+
 .contact {
-  background-color: var(--oceanic-dark);
+  background-color: $oceanic-dark;
 
   .container {
     align-items: center;
@@ -8,14 +10,13 @@
 
     .title {
       font-size: clamp(40px, 5vw, 60px);
-      color: var(--lightest-slate);
+      color: $lightest-slate;
       font-weight: 600;
     }
 
     .description {
-      /*max-width: 450px;*/
       text-align: center;
-      color: var(--slate);
+      color: $slate;
       margin: 15px 0;
     }
 
@@ -24,6 +25,13 @@
       flex-wrap: wrap;
       gap: 45px;
       margin: 33px 0;
+    }
+    .thxImg{
+      img{
+        height: 300px;
+        width: auto;
+        margin-bottom: -3px;
+      }
     }
 
   }

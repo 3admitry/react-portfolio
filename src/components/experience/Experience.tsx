@@ -9,7 +9,7 @@ export const Experience = () => {
     return (
         <section className={style.experience}>
             <div className={cn(style.container, commonStyle.container)}>
-                <h2>{'<Experience />'}</h2>
+                <h2 id={'experience'}>{'<Experience />'}</h2>
                 <ExperienceTabs/>
                 <div className={style.step3Direction}></div>
             </div>

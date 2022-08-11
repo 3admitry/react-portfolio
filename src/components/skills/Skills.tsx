@@ -11,7 +11,7 @@ const Skills = () => {
     return (
         <section className={style.skills}>
             <div className={cn(style.container, commonStyle.container)}>
-                <h2>{'<Skills />'}</h2>
+                <h2 id={'skills'}>{'<Skills />'}</h2>
                 <div className={style.skillBoxes}>
                     <div className={style.skillBox}><ShowSkills skills={state.skills.html}/></div>
                     <div className={style.skillBox}><ShowSkills skills={state.skills.react}/></div>

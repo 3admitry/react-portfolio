@@ -7,13 +7,13 @@ import cn from 'classnames';
 
 const About = () => {
     return (
-        <section id={'aboutme'} className={style.about}>
+        <section className={style.about}>
             {/*            <div className={style.lineAbout}>
                 <SvgLinesAbout />
             </div>*/}
             <div className={cn(style.container, commonStyle.container)}>
 
-                <h2>{'<AboutMe />'}</h2>
+                <h2 id={'aboutme'}>{'<AboutMe />'}</h2>
                 <div className={style.aboutBox}>
                     <div className={style.aboutContent}>
                         <p> Hello everyone, my name is Dmitry and I'm a front-end developer from Brest, Belarus. I'm a
@@ -24,7 +24,10 @@ const About = () => {
                         </p>
                         <p> Since my university days, I've been interested in website development, but later switched
                             to search engine optimization and reached the level of expertise in this area today. In
-                            2015, I with my business partner founded the digital-agency <a href="https://seoclick.by/" target={'_blank'} rel="noreferrer">SeoClick</a>. At first, we provided
+                            2015, I with my business partner founded the digital-agency <a href="https://seoclick.by/"
+                                                                                           target={'_blank'}
+                                                                                           rel="noreferrer">SeoClick</a>.
+                            At first, we provided
                             SEO services, but then, at my suggestion, we opened website development directions, which I
                             headed, doing both management activities and pure coding and development practice.
                         </p>
@@ -36,8 +39,10 @@ const About = () => {
                             In 2019, I discovered React for the first time and completely fell in love with the
                             front-end. It turned my world upside down and that's what I like.</p>
                         <p>
-                            I am a mega versatile person with a billion hobbies in the past. I fond of to communicate with
-                            interesting people who can give me smth new and make better. I am married and have two lovely
+                            I am a mega versatile person with a billion hobbies in the past. I fond of to communicate
+                            with
+                            interesting people who can give me smth new and make better. I am married and have two
+                            lovely
                             kids. I'll be glad to new contacts and any business offers.</p>
                     </div>
                     <div className={style.personalInfo}>
