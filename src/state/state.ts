@@ -23,7 +23,7 @@ export const state = {
                 {name: 'React', image: 'react'},
                 {name: 'Redux / Thunk', image: 'redux'},
                 {name: 'Storybook', image: 'storybook'},
-                {name: 'Unit and Integration Testing, Jest', image: 'test'},
+                {name: 'Unit and Integration Testing, Jest', image: 'bug'},
                 {name: 'React-Router-Dom', image: 'route'},
                 {name: 'React-Hook-Form / Formik', image: 'form'},
             ]
@@ -44,12 +44,12 @@ export const state = {
             title: 'SEO',
             description: '10+ Years Experience',
             items: [
-                {name: 'High expertise in search engine optimization', image: 'html'},
-                {name: 'SEO-software development', image: 'css'},
-                {name: 'Core Web Vitals', image: 'sass'},
-                {name: 'Development of SEO-strategies for large projects', image: 'module-css'},
-                {name: 'SEO-department management ', image: 'bootstrap'},
-                {name: 'SEO-analytics, hypotheses, research, implementation', image: 'bem'},
+                {name: 'High expertise in search engine optimization', image: 'expert'},
+                {name: 'SEO-software development', image: 'seosoft'},
+                {name: 'Core Web Vitals', image: 'pagespeed'},
+                {name: 'Development of SEO-strategies for large projects', image: 'large'},
+                {name: 'SEO-department management ', image: 'manage'},
+                {name: 'SEO-analytics, hypotheses, research, implementation', image: 'analytic'},
             ]
         },
         design: {

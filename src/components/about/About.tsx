@@ -43,42 +43,46 @@ const About = () => {
                             with
                             interesting people who can give me smth new and make better. I am married and have two
                             lovely
-                            kids. I'll be glad to new contacts and any business offers.</p>
+                            kids. I'll be glad to new contacts and any offers.</p>
                     </div>
                     <div className={style.personalInfo}>
-                        <h4>PERSONAL INFO</h4>
-                        <table>
-                            <tbody>
-                            <tr>
-                                <td>Name:</td>
-                                <td>Dmitry Zagluhinsky</td>
-                            </tr>
-                            <tr>
-                                <td>Age:</td>
-                                <td>33 Years</td>
-                            </tr>
-                            <tr>
-                                <td>Nationality:</td>
-                                <td>Belarus</td>
-                            </tr>
-                            <tr>
-                                <td>Languages:</td>
-                                <td>English (B1), Russian</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <h4>EDUCATION</h4>
-                        <div className={style.education}>
-                            <h5>Higher education:</h5>
-                            <div className={style.dateRange}>2008-2013</div>
-                            <div className={style.eduTitle}>Brest State Technical University</div>
-                            <div>Faculty › Electronics and Information systems</div>
-                            <div>Specialization › Systems Engineer</div>
-                            <div>Degree › Specialist</div>
-                            <h5>Vocational education:</h5>
-                            <div className={style.dateRange}>2005-2008</div>
-                            <div className={style.eduTitle}>Brest State Professional Lyceum</div>
-                            <div>Specialization › Computer Operator</div>
+                        <div>
+                            <h4>PERSONAL INFO</h4>
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>Name:</td>
+                                    <td>Dmitry Zagluhinsky</td>
+                                </tr>
+                                <tr>
+                                    <td>Age:</td>
+                                    <td>33 Years</td>
+                                </tr>
+                                <tr>
+                                    <td>Nationality:</td>
+                                    <td>Belarus</td>
+                                </tr>
+                                <tr>
+                                    <td>Languages:</td>
+                                    <td>English (B1), Russian</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <h4>EDUCATION</h4>
+                            <div className={style.education}>
+                                <h5>Higher education:</h5>
+                                <div className={style.dateRange}>2008-2013</div>
+                                <div className={style.eduTitle}>Brest State Technical University</div>
+                                <div>Faculty › Electronics and Information systems</div>
+                                <div>Specialization › Systems Engineer</div>
+                                <div>Degree › Specialist</div>
+                                <h5>Vocational education:</h5>
+                                <div className={style.dateRange}>2005-2008</div>
+                                <div className={style.eduTitle}>Brest State Professional Lyceum</div>
+                                <div>Specialization › Computer Operator</div>
+                            </div>
                         </div>
                     </div>
 

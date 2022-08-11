@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'mixins';
+
+.App {
+  @include laptop{
+    padding: 0 2rem;
+  }
+}

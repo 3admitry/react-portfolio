@@ -1,9 +1,13 @@
 @import 'variables';
+@import 'mixins';
 
 .main {
   height: 90vh;
+  @include laptop{
+    height: auto;
+  }
 
-  &:after {
+/*  &:after {
     content: '';
     width: 100%;
     height: 500px;
@@ -11,12 +15,15 @@
     background: linear-gradient(0deg, var(--oceanic-lightest) 0%, var(--oceanic-light) 100%);
     bottom: -22px;
     z-index: -1;
-  }
+  }*/
 
   .container {
     align-items: flex-start;
     justify-content: space-between;
     margin: 0 auto;
+    @include laptop{
+      justify-content: center;
+    }
 
     .leftBlock {
       display: flex;
@@ -26,6 +33,9 @@
 
       &Content {
         padding-top: 196px;
+        @include laptop{
+          padding-top: 4rem;
+        }
 
         .intro {
           font-size: 1.7rem;
@@ -119,6 +129,11 @@
   }
 
   .ScrollBar {
+    @include laptop{
+      position: inherit;
+      text-align: center;
+      margin-top: 3rem;
+      }
     position: absolute;
     bottom: 0;
     left: calc(100vw / 2 - 18px);

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Tab, Tabs, Typography} from "@mui/material";
 import style from '../../assets/scss/Experience.module.scss'
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 interface TabPanelProps {
@@ -39,6 +40,7 @@ function a11yProps(index: number) {
 
 function ExperienceTabs() {
     const [value, setValue] = React.useState(0);
+    const isNeedtoUpsideDown = useMediaQuery('(max-width:768px)');
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
@@ -51,7 +53,10 @@ function ExperienceTabs() {
                       className={'customTabs'}
                       onChange={handleChange}
                       aria-label="basic tabs example"
-                      orientation="vertical">
+                      variant="scrollable"
+                      scrollButtons
+                      allowScrollButtonsMobile
+                      orientation={isNeedtoUpsideDown ? 'horizontal':'vertical'} >
                     <Tab className={'customTab'}
                          label={<> SeoClick <br/> <span>2015-2022</span> </>} {...a11yProps(0)} />
                     <Tab className={'customTab'} label={<> Kit.by <br/> <span>2014-2015</span> </>} {...a11yProps(1)} />

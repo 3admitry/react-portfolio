@@ -54,6 +54,7 @@
             margin-left: 10px;
             z-index: 1;
             cursor: pointer;
+            position: inherit;
 
             svg {
               width: 22px;
@@ -82,10 +83,27 @@
             z-index: 2;
             cursor: pointer;
             position: relative;
-            top: 1px;
+            top: 0px;
+            transition: $transition;
 
             &:hover {
               color: $green;
+              outline: 0px;
+              &:after {
+                width: 100%;
+              }
+            }
+
+            &:after {
+              content: "";
+              display: block;
+              width: 0px;
+              height: 1px;
+              position: relative;
+              //bottom: 0.37em;
+              background-color: $green;
+              transition: $transition;
+              opacity: 0.5;
             }
 
             svg {

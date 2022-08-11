@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.module.css';
+import style from './assets/scss/App.module.scss';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
 import About from './components/about/About';
@@ -11,7 +11,7 @@ import Ornament from "./components/ornament/Ornament";
 
 function App() {
     return (
-        <div className="App">
+        <div className={style.App}>
             <Header/>
             <Main/>
             <About/>
