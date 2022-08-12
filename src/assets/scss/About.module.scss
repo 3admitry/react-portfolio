@@ -31,6 +31,9 @@
         margin: 0 auto;
         padding-top: 163px;
         flex-direction: column;
+        @include laptop{
+            padding-top: 2rem;
+        }
         .aboutBox {
             padding: 20px;
             border-radius: $border-radius;

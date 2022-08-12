@@ -19,9 +19,3 @@
     @content;
   }
 }
-
-// вызов mixin
-/*
-footer {
-  @include phones{ background-color: red;}
-}*/

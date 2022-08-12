@@ -49,7 +49,11 @@ export default function LabTabs() {
         <Box className={style.workContainer} sx={{width: '100%', typography: 'body1'}}>
             <TabContext value={value}>
                 <Box className={'workTabs'} sx={{borderBottom: 1, borderColor: 'var(--dark-slate)'}}>
-                    <TabList onChange={handleChange} aria-label="work tabs">
+                    <TabList onChange={handleChange} aria-label="work tabs"
+                             variant="scrollable"
+                             scrollButtons
+                             allowScrollButtonsMobile
+                    >
                         <Tab className={'customTab'} label="All" value="all"/>
                         <Tab className={'customTab'} label="React/Redux" value="react"/>
                         <Tab className={'customTab'} label="PHP" value="php"/>

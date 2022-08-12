@@ -5,4 +5,7 @@
   @include laptop{
     padding: 0 2rem;
   }
+  @include phones{
+    padding: 0 1.3rem;
+  }
 }

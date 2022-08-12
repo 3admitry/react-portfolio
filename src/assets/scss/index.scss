@@ -60,6 +60,10 @@ body {
   color: $lightest-slate;
 }
 
+.bg-blur {
+  overflow-y: hidden;
+}
+
 
 a {
   color: $green;
@@ -158,6 +162,6 @@ code {
 }
 
 .workTabs .customTab {
-  color:$slate;
+  color: $slate;
 }
 

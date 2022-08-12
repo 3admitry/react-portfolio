@@ -52,7 +52,6 @@ function ExperienceTabs() {
                 <Tabs value={value}
                       className={'customTabs'}
                       onChange={handleChange}
-                      aria-label="basic tabs example"
                       variant="scrollable"
                       scrollButtons
                       allowScrollButtonsMobile

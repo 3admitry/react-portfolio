@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../../assets/scss/Nav.module.scss'
+import style from '../../../assets/scss/Header.module.scss'
 
 const Nav = () => {
     return (
