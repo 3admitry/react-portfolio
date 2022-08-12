@@ -1,18 +1,12 @@
 import React from 'react';
 import style from '../../assets/scss/About.module.scss'
-import commonStyle from '../../common/styles/Container.module.css'
-import SvgLinesAbout from './SvgLinesAbout';
+import commonStyle from '../../common/styles/Container.module.scss'
 import cn from 'classnames';
-
 
 const About = () => {
     return (
         <section className={style.about}>
-            {/*            <div className={style.lineAbout}>
-                <SvgLinesAbout />
-            </div>*/}
             <div className={cn(style.container, commonStyle.container)}>
-
                 <h2 id={'aboutme'}>{'<AboutMe />'}</h2>
                 <div className={style.aboutBox}>
                     <div className={style.aboutContent}>
@@ -26,7 +20,7 @@ const About = () => {
                             to search engine optimization and reached the level of expertise in this area today. In
                             2015, I with my business partner founded the digital-agency <a href="https://seoclick.by/"
                                                                                            target={'_blank'}
-                                                                                           rel="noreferrer">SeoClick</a>.
+                                                                                           rel="noreferrer noopener">SeoClick</a>.
                             At first, we provided
                             SEO services, but then, at my suggestion, we opened website development directions, which I
                             headed, doing both management activities and pure coding and development practice.
@@ -75,7 +69,10 @@ const About = () => {
                                 <h5>Higher education:</h5>
                                 <div className={style.dateRange}>2008-2013</div>
                                 <div className={style.eduTitle}>Brest State Technical University</div>
-                                <div>Faculty › Electronics and Information systems</div>
+                                <div>Faculty › <a href="https://old.bstu.by/en/faculties/electronic-information-systems"
+                                                  target={'_blank'}
+                                                  rel="noreferrer noopener">Electronics and Information systems</a>
+                                </div>
                                 <div>Specialization › Systems Engineer</div>
                                 <div>Degree › Specialist</div>
                                 <h5>Vocational education:</h5>
@@ -85,12 +82,9 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div className={style.step2Direction}></div>
             </div>
-
-
         </section>
     );
 };

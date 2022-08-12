@@ -28,14 +28,8 @@ const WorkTab = ({project}: propsType) => {
     const [photoIndex, setPhotoIndex] = useState<number>(0)
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const bgUrl = require(`../../assets/images/works/${project.name}.jpg`);
-
-    /*   if (project.type === 'design') {
-           var images = project.images?.map(el => require(`../../assets/images/works/dsg/${project.name}/${el}.jpg`))
-       }*/
     let images = project.images?.map(el => require(`../../assets/images/works/dsg/${project.name}/${el}.jpg`))
 
-    // @ts-ignore
-    // @ts-ignore
     return (
         <div className={cn(style.workBox, {[style.featuredBox]: project.featured})}>
             <div className={style.workBoxTop}>
@@ -43,7 +37,7 @@ const WorkTab = ({project}: propsType) => {
 
                 {project.links?.git &&
                     <a className={style.git} href={project.links.git} target={'_blank'}
-                       title={'Ling to githab repository'} rel="noreferrer">
+                       title={'Link to github repository'} rel="noreferrer noopener">
                         <Git/>
                     </a>
                 }
@@ -57,7 +51,7 @@ const WorkTab = ({project}: propsType) => {
 
                 {project.links?.demo &&
                     <a href={project.links.demo} target={'_blank'} title={'External link'}
-                       rel="noreferrer">
+                       rel="noreferrer noopener">
                         <Ext/>
                     </a>
                 }

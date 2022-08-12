@@ -3,7 +3,6 @@ import {Box, Tab, Tabs, Typography} from "@mui/material";
 import style from '../../assets/scss/Experience.module.scss'
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-
 interface TabPanelProps {
     children?: React.ReactNode;
     index: number;
@@ -23,7 +22,7 @@ function TabPanel(props: TabPanelProps) {
         >
             {value === index && (
                 <Box sx={{p: 3}}>
-                    <Typography>{children}</Typography>
+                    <Typography component={'span'}>{children}</Typography>
                 </Box>
             )}
         </div>
@@ -36,7 +35,6 @@ function a11yProps(index: number) {
         'aria-controls': `simple-tabpanel-${index}`,
     };
 }
-
 
 function ExperienceTabs() {
     const [value, setValue] = React.useState(0);

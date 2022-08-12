@@ -2,10 +2,15 @@
 @import 'mixins';
 
 .App {
-  @include laptop{
+  @include laptop {
     padding: 0 2rem;
   }
-  @include phones{
+  @include phones {
     padding: 0 1.3rem;
   }
+  .HeadroomWrap{
+
+  }
 }
+
+

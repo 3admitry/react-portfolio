@@ -85,7 +85,7 @@ export const state = {
     works: [
         {
             id: v4(),
-            type: 'php, design',
+            type: 'php',
             name: 'seoplane',
             title: 'SeoPlane - SEO-project management system',
             desc: `SeoPlane is a multifunctional system for managing seo-projects, tasks, which allows you to streamline
@@ -556,6 +556,25 @@ export const state = {
                 'Adobe XD',
             ],
             images: [1, 2, 3, 4, 5, 6,],
+            featured: false,
+        },
+        {
+            id: v4(), type: 'react', name: 'portfolio', title: '3admitry.com',
+            desc: `My personal webpage is developed on RCA with Typescript and SCSS. It's appointment to show working information about me. 
+            Modern digital design inspired by Brittany Chiang's website. The source code of the application was written from scratch by me. 
+            Repository in public access on github`,
+            stack: [
+                'React',
+                'TypeScript',
+                'react-image-lightbox',
+                'react-headroom',
+                'Mui',
+                'SCSS',
+            ],
+            links: {
+                demo: 'https://3admitry.com',
+                git: 'https://github.com/3admitry/react-portfolio'
+            },
             featured: false,
         },
     ]

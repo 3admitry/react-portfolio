@@ -1,9 +1,8 @@
 import React from 'react';
 import style from '../../assets/scss/Experience.module.scss'
-import commonStyle from '../../common/styles/Container.module.css'
+import commonStyle from '../../common/styles/Container.module.scss'
 import ExperienceTabs from './ExperienceTabs';
 import cn from 'classnames';
-
 
 export const Experience = () => {
     return (

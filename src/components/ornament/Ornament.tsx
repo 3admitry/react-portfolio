@@ -1,28 +1,24 @@
 import React, {useEffect, useState} from 'react';
-import style from './Ornament.module.css';
+import style from '../../assets/scss/Ornament.module.scss';
 import {v4} from 'uuid';
-import orn from '../../assets/images/icons/ornament.svg'
-
-
 
 function getCountOrnaments() {
     let {clientHeight} = document.body
     let countOrnaments = Math.floor((clientHeight - 15) / 95) - 1;
-    return { clientHeight, countOrnaments }
+    return {clientHeight, countOrnaments}
 }
 
-
 const Ornament = () => {
-    const [ornametsValues, setOrnametsValues] = useState({clientHeight: 1, countOrnaments:1});
+    const [ornamentsValues, setOrnamentsValues] = useState({clientHeight: 1, countOrnaments: 1});
 
     useEffect(() => {
         function handleWindowResize() {
-            setOrnametsValues(getCountOrnaments());
+            setOrnamentsValues(getCountOrnaments());
         }
 
-        setTimeout(()=>{
-            setOrnametsValues(getCountOrnaments())
-        },0)
+        setTimeout(() => {
+            setOrnamentsValues(getCountOrnaments())
+        }, 0)
 
         window.addEventListener('resize', handleWindowResize);
 
@@ -31,21 +27,19 @@ const Ornament = () => {
         };
     }, []);
 
-    let htmlOrnamets: Array<string> = [];
+    let htmlOrnaments: Array<string> = [];
     let i = 0;
-    while (i < ornametsValues.countOrnaments) {
-        htmlOrnamets.push('');
+    while (i < ornamentsValues.countOrnaments) {
+        htmlOrnaments.push('');
         i++;
     }
-
 
     return (
         <div className={style.ornament}>
             <div className={style.mainItem}></div>
-            {htmlOrnamets.map(el => <div key={v4()} className={style.item}></div>)}
+            {htmlOrnaments.map(el => <div key={v4()} className={style.item}></div>)}
         </div>
     );
 };
-
 
 export default Ornament;

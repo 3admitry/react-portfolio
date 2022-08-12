@@ -1,8 +1,7 @@
 import React from 'react';
 import style from '../../assets/scss/Contact.module.scss'
-import commonStyle from '../../common/styles/Container.module.css'
+import commonStyle from '../../common/styles/Container.module.scss'
 import thxImg from '../../assets/images/thanks.webp'
-
 
 const Contact = () => {
     return (
@@ -26,6 +25,9 @@ const Contact = () => {
                 <div className={style.thxImg}>
                     <img src={thxImg} alt={''} height={'300px'}/>
                 </div>
+            </div>
+            <div className={style.inspired}>
+                Inspired by Brittany Chiang design.
             </div>
         </footer>
     );

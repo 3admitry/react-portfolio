@@ -1,18 +1,15 @@
 import * as React from 'react';
+import {useEffect} from 'react';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
-import todoImg from '../../assets/images/works/todolist.jpg'
 import WorkTab from "./WorkTab";
-import {createTheme} from '@mui/material';
 import {styled} from "@mui/material/styles";
 import {state} from "../../state/state";
 import cn from "classnames";
-import {useEffect} from "react";
 import style from '../../assets/scss/Work.module.scss';
-
 
 export default function LabTabs() {
     const [value, setValue] = React.useState('all');
@@ -20,7 +17,7 @@ export default function LabTabs() {
 
     useEffect(() => {
         window.dispatchEvent(new Event('resize'));
-    }, [value,countItems]);
+    }, [value, countItems]);
 
 
     const handleChange = (event: React.SyntheticEvent, newValue: string) => {
@@ -52,8 +49,7 @@ export default function LabTabs() {
                     <TabList onChange={handleChange} aria-label="work tabs"
                              variant="scrollable"
                              scrollButtons
-                             allowScrollButtonsMobile
-                    >
+                             allowScrollButtonsMobile>
                         <Tab className={'customTab'} label="All" value="all"/>
                         <Tab className={'customTab'} label="React/Redux" value="react"/>
                         <Tab className={'customTab'} label="PHP" value="php"/>
@@ -62,10 +58,8 @@ export default function LabTabs() {
                         <Tab className={'customTab'} label="Speeches/Video" value="speeches"/>
                     </TabList>
                 </Box>
-                <div className={cn(style.workBoxs, {[style.workSeoBoxs]: value === 'seo'})}>
+                <div className={cn(style.workBoxes, {[style.workSeoBoxes]: value === 'seo'})}>
                     {
-
-
                         slicedWorks.map(el => {
                             return (
                                 <CustomizedTabPanel key={el.id} value={value === 'all' ? 'all' : value}>
@@ -79,7 +73,7 @@ export default function LabTabs() {
                             Given that my current position is a front-end developer, I don't see much point in hosting a
                             huge number of projects that are SEO related. Some of them you can find on the <a
                             href="https://seoclick.by/portfolio/prodvizhenie-sajtov" target={'_blank'}
-                            rel="noreferrer">link</a> or
+                            rel="noreferrer noopener">link</a> or
                             contact me, I will share them with you. Really, there are a lot of them.
                         </>
                     }

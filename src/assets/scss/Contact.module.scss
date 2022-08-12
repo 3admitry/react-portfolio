@@ -1,7 +1,9 @@
 @import 'variables';
+@import 'mixins';
 
 .contact {
   background-color: $oceanic-dark;
+  position: relative;
 
   .container {
     align-items: center;
@@ -26,14 +28,31 @@
       gap: 45px;
       margin: 33px 0;
     }
-    .thxImg{
-      img{
+
+    .thxImg {
+      img {
         height: 300px;
         width: auto;
         margin-bottom: -3px;
       }
     }
 
+  }
+
+  .inspired {
+    position: absolute;
+    right: -76px;
+    height: 0;
+    bottom: 119px;
+    transform: rotate(270deg);
+    font-size: 14px;
+    color: $dark-slate;
+    @include tablets {
+      right: -112px;
+    }
+    @include phones {
+      right: -101px;
+    }
   }
 }
 

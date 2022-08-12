@@ -1,11 +1,8 @@
 import React from 'react';
 import style from '../../assets/scss/Skills.module.scss'
-import commonStyle from '../../common/styles/Container.module.css'
-import iconSkillExample from '../../assets/images/icons/html.svg'
-import {RootStateType, state} from "../../state/state";
+import commonStyle from '../../common/styles/Container.module.scss'
+import {state} from "../../state/state";
 import cn from "classnames";
-
-
 
 const Skills = () => {
     return (

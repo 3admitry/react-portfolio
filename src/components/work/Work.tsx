@@ -1,8 +1,7 @@
 import React from 'react';
 import style from '../../assets/scss/Work.module.scss'
-import commonStyle from '../../common/styles/Container.module.css'
+import commonStyle from '../../common/styles/Container.module.scss'
 import WorkTabs from "./WorkTabs";
-
 
 const Work = () => {
     return (
