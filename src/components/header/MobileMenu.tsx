@@ -41,7 +41,7 @@ export const MobileMenu = () => {
                                rel="noreferrer noopener"><Link/></a>
                             <a href="https://t.me/iiiadi" target={'_blank'} rel="noreferrer noopener"><Telegram/></a>
                         </div>
-                        <div><a href="/CV_Dmitry_Zagluhinsky.pdf" className={'button'} target={'_blank'} rel="noreferrer noopener">Download CV</a></div>
+                        <div><a href="/CV_Dmitry_Zagluhinsky.pdf" className={'button'} target={'_blank'} rel="noreferrer noopener">Download Resume</a></div>
                     </div>
                 </nav>
             </aside>

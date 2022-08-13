@@ -40,7 +40,7 @@ const Main = React.memo(() => {
                                 <a className={style.socLinks} href="https://t.me/iiiadi" target={'_blank'}
                                    rel="noreferrer noopener"><Telegram/></a>
                                 <a href="/CV_Dmitry_Zagluhinsky.pdf" className={'button'} target={'_blank'}
-                                   rel="noreferrer">Download CV</a>
+                                   rel="noreferrer">Download Resume</a>
                             </div>
                         </div>
                     </div>

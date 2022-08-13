@@ -59,7 +59,7 @@ export const state = {
                 {name: 'HTML5/CSS3', image: 'html'},
                 {name: 'SCSS/Module CSS', image: 'sass'},
                 {name: 'Block/Element/Modifier', image: 'bem'},
-                {name: 'MUI/AntDesign/Bootsrap', image: 'mui'},
+                {name: 'MUI/AntDesign/Bootstrap', image: 'mui'},
                 {name: 'Adobe XD/Photoshop', image: 'xd'},
                 {name: 'Figma/CorelDraw', image: 'figma'},
             ]
@@ -74,7 +74,7 @@ export const state = {
                 {name: 'ООP/MVC/SOLID/DRY/KISS', image: 'patterns'},
                 {name: 'Git / Composer', image: 'gitOfficial'},
                 {
-                    name: 'Jooomla/Wordpress \n' +
+                    name: 'Joomla/Wordpress \n' +
                         '& 15+ CMS Exp.', image: 'cms'
                 },
             ]

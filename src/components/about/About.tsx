@@ -49,16 +49,20 @@ const About = () => {
                                     <td>Dmitry Zagluhinsky</td>
                                 </tr>
                                 <tr>
-                                    <td>Age:</td>
-                                    <td>33 Years</td>
+                                    <td>Birth:</td>
+                                    <td>23/06/1989</td>
+                                </tr>
+                                <tr>
+                                    <td>Location:</td>
+                                    <td>Brest, Belarus</td>
                                 </tr>
                                 <tr>
                                     <td>Nationality:</td>
-                                    <td>Belarus</td>
+                                    <td>Belarusian</td>
                                 </tr>
                                 <tr>
                                     <td>Languages:</td>
-                                    <td>English (B1), Russian</td>
+                                    <td>English – Intermediate (B1), Russian, Belarussian – Native Speaker</td>
                                 </tr>
                                 </tbody>
                             </table>

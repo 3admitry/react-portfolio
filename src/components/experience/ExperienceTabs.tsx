@@ -72,7 +72,7 @@ function ExperienceTabs() {
                     <div className={style.dateRange}>April 2015 - August 2022</div>
                     <ul>
                         <li>Development of websites and web applications of various levels of complexity;</li>
-                        <li>Development of your own seo project management system - SeoPlane (For more details, see
+                        <li>Development of own seo project management system - SeoPlane (For more details, see
                             below, in the Work section);
                         </li>
                         <li>UI-design;</li>
