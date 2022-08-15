@@ -4,7 +4,7 @@ import {v4} from 'uuid';
 
 function getCountOrnaments() {
     let {clientHeight} = document.body
-    let countOrnaments = Math.floor((clientHeight - 15) / 95) - 1;
+    let countOrnaments = Math.floor((clientHeight - 15) / 95) - 3;
     return {clientHeight, countOrnaments}
 }
 

@@ -76,6 +76,7 @@
                 }
 
                td{
+                   vertical-align: top;
                    &:nth-child(1){
                        color: $slate;
                    }
