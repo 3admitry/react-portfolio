@@ -52,20 +52,16 @@ const About = () => {
                                     <td>Dmitry Zagluhinsky</td>
                                 </tr>
                                 <tr>
-                                    <td>Birth:</td>
-                                    <td>23/06/1989</td>
-                                </tr>
-                                <tr>
                                     <td>Location:</td>
                                     <td>Brest, Belarus</td>
                                 </tr>
                                 <tr>
-                                    <td>Nationality:</td>
-                                    <td>Belarusian</td>
+                                    <td>Languages:</td>
+                                    <td>English – Intermediate (B1), Russian, Belarusian – Native Speaker</td>
                                 </tr>
                                 <tr>
-                                    <td>Languages:</td>
-                                    <td>English – Intermediate (B1), Russian, Belarussian – Native Speaker</td>
+                                    <td>Interests:</td>
+                                    <td>Genealogy, natural sciences, drawing portraits, traveling, biking</td>
                                 </tr>
                                 </tbody>
                             </table>
