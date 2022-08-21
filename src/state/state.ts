@@ -101,7 +101,7 @@ export const state = {
                 'Figma',
             ],
             links: {
-                demo: 'https://seoplane.3admitry.com',
+                demo: 'http://seoplane.3admitry.com',
             },
             featured: true,
         },
@@ -443,7 +443,7 @@ export const state = {
             ],
             images: [1, 2],
             links: {
-                demo: 'https://gorodfm.by/',
+                demo: 'https://check-auto.by/',
             },
             featured: false,
         },

@@ -4,6 +4,7 @@ import commonStyle from '../../common/styles/Container.module.scss'
 import {ReactComponent as Git} from '../../assets/images/icons/git.svg'
 import {ReactComponent as Link} from '../../assets/images/icons/link.svg'
 import {ReactComponent as Telegram} from '../../assets/images/icons/telegram.svg'
+import {ReactComponent as Codewars} from '../../assets/images/icons/codewars.svg'
 import {Switch} from '@mui/material';
 import {styled} from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
@@ -39,6 +40,8 @@ const Main = React.memo(() => {
                                    target={'_blank'} rel="noreferrer noopener"><Link/></a>
                                 <a className={style.socLinks} href="https://t.me/iiiadi" target={'_blank'}
                                    rel="noreferrer noopener"><Telegram/></a>
+                                <a className={style.socLinks} href="https://www.codewars.com/users/3a.Dmitry" target={'_blank'}
+                                   rel="noreferrer noopener"><Codewars/></a>
                                 <a href="/CV_Dmitry_Zagluhinsky.pdf" className={'button'} target={'_blank'}
                                    rel="noreferrer">Download Resume</a>
                             </div>
