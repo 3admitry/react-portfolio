@@ -57,7 +57,8 @@ const About = () => {
                                 </tr>
                                 <tr>
                                     <td>Languages:</td>
-                                    <td>English – Intermediate (B1), Russian, Belarusian – Native Speaker</td>
+                                    <td>English – Intermediate (B1)
+                                        <br />Russian, Belarusian – Native Speaker</td>
                                 </tr>
                                 <tr>
                                     <td>Interests:</td>
