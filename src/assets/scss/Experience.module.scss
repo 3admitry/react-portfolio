@@ -4,6 +4,7 @@
 .experience {
     position: relative;
     background-color: $oceanic-dark;
+    word-break: break-word;
     z-index: 1;
     .container {
         justify-content: flex-start;

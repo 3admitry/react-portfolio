@@ -39,8 +39,7 @@ const About = () => {
                             with
                             interesting people who can give me smth new and make better. I am married and have two
                             lovely
-                            kids. I'll be glad to new contacts and offers. I'm sure that I will be a brilliant find for
-                            your team and benefit the company.</p>
+                            kids. I'll be glad to new contacts and offers. Let's be in touch.</p>
                     </div>
                     <div className={style.personalInfo}>
                         <div>

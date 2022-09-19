@@ -21,7 +21,7 @@ export const state = {
             description: '~1 Years Experience',
             items: [
                 {name: 'React', image: 'react'},
-                {name: 'Redux / Thunk', image: 'redux'},
+                {name: 'Redux / Thunk / Saga', image: 'redux'},
                 {name: 'Storybook', image: 'storybook'},
                 {name: 'Unit and Integration Testing, Jest', image: 'bug'},
                 {name: 'React-Router-Dom', image: 'route'},
@@ -57,7 +57,7 @@ export const state = {
             description: '10+ Years Experience',
             items: [
                 {name: 'HTML5/CSS3', image: 'html'},
-                {name: 'SCSS/Module CSS', image: 'sass'},
+                {name: 'SCSS/Module CSS/Styled', image: 'sass'},
                 {name: 'Block/Element/Modifier', image: 'bem'},
                 {name: 'MUI/AntDesign/Bootstrap', image: 'mui'},
                 {name: 'Adobe XD/Photoshop', image: 'xd'},

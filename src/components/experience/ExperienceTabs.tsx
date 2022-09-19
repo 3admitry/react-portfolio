@@ -53,7 +53,7 @@ function ExperienceTabs() {
                       variant="scrollable"
                       scrollButtons
                       allowScrollButtonsMobile
-                      orientation={isNeedtoUpsideDown ? 'horizontal':'vertical'} >
+                      orientation={isNeedtoUpsideDown ? 'horizontal' : 'vertical'}>
                     <Tab className={'customTab'}
                          label={<> SeoClick <br/> <span>2015-2022</span> </>} {...a11yProps(0)} />
                     <Tab className={'customTab'} label={<> Kit.by <br/> <span>2014-2015</span> </>} {...a11yProps(1)} />
@@ -65,17 +65,32 @@ function ExperienceTabs() {
             <div className={style.tabPanel}>
                 <TabPanel value={value} index={0}>
                     <div className={style.positionTitle}>
-                        Full-stack developer / Director / Co-founder <a href="https://seoclick.by/"
+                        Software developer / Head of <a href="https://seoclick.by/"
                                                                         target={'_blank'}
                                                                         rel="noreferrer">@SeoClick</a>
                     </div>
                     <div className={style.dateRange}>April 2015 - August 2022</div>
                     <ul>
-                        <li>Development of websites and web applications of various levels of complexity;</li>
-                        <li>Development of own seo project management system - SeoPlane (For more details, see
-                            below, in the Work section);
+                        <li>2020-2022 - Development of SPAs using React (1+ year commercial experience) - user
+                            interfaces for components in the admin panel of the CMS<br/>
+                            tech stack: React/Redux/Thunk/TypeScript/Functional & Class Components/SCSS/Module CSS/MUI
                         </li>
-                        <li>UI-design;</li>
+                        <li>Feb-Jul 2022 - Improving qualifications in IT-INCUBATOR - studying and understanding modern
+                            architectural approaches to developing applications on React/Redux, Expanding knowledge,
+                            Development of pet-projects<br/>
+                            tech stack: JS(ES6)/React/Redux/Thunk/Saga/TypeScript/Storybook/Unit&Integration
+                            Testing/Jest/Git/Webpack/Yarn/npm/WebSocket/SOLID/DRY/KISS/SCSS/ModuleCSS/BEM/Styled-components/MUI/AntDesign/Axios/React-Formik/React-Hook-Form/
+                            React-router-dom/REST API/JSON
+                        </li>
+                        <li>2016-2022 - Development of 35+ websites of various levels of complexity based on CMS:
+                            Joomla, WordPress, Opencart. Design development for almost every project. 2018-2021 -
+                            Development of SEO-project management system for our company - SeoPlane is a multifunctional
+                            system for managing seo-projects, tasks, which allows you to streamline and automate
+                            business processes using unique modules (e.g. seo-radar) and integrations with third-party
+                            services - seoplane.3admitry.com<br/>
+                            tech stack: PHP/HTML/CSS/SCSS/JS/jQuery/BootStrap/MySQL/Apache/Nginx/ OOP/MVC/
+                            Git/‎QNAP/QTS/Telegram API/AdobeXD/Photoshop/Figma/CorelDraw
+                        </li>
                         <li>Communication, support and consulting of clients, preparation and conclusion of contracts,
                             resolution of conflict situations. Preparation of technical specifications;
                         </li>
@@ -83,6 +98,8 @@ function ExperienceTabs() {
                             team. Project management, task setting, control of their execution;
                         </li>
                         <li>Speaking at conferences</li>
+
+
                     </ul>
                     <p>
                         SeoClick - specializes in the development and promotion of corporate websites and online stores.

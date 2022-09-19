@@ -30,7 +30,7 @@ const Main = React.memo(() => {
                             A FRONT-END (REACT) SOFTWARE ENGINEER
                         </div>
                         <div className={style.smallDescription}>
-                            Previous positions: PHP-developer, Co-founder "SeoClick", SEO-Specialist, UI
+                            Previous positions: PHP-developer, Head of @SeoClick, SEO-Specialist, UI
                         </div>
                         <div className={style.connected}>
                             <div className={style.connectedLinks}>
